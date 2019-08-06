@@ -1,2 +1,2 @@
-# greenpeas-uk
+# Greenpeas UK
 Makers final project
