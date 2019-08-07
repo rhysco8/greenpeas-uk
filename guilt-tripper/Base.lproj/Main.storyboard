@@ -84,6 +84,9 @@
                                         <integer key="value" value="0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="09P-WO-FIN" kind="show" id="IIO-i7-wNq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -103,5 +106,46 @@
             </objects>
             <point key="canvasLocation" x="842" y="135"/>
         </scene>
+        <!--Guilt Trip View Controller-->
+        <scene sceneID="9ds-hu-XD9">
+            <objects>
+                <viewController id="09P-WO-FIN" customClass="GuiltTripViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jgI-Ju-4mx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzz-hB-UT4">
+                                <rect key="frame" x="25" y="120" width="325" height="45.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sad orangutan 1" translatesAutoresizingMaskIntoConstraints="NO" id="r2d-EQ-pIp">
+                                <rect key="frame" x="0.0" y="435" width="375" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sad orangutan 2" translatesAutoresizingMaskIntoConstraints="NO" id="HY2-Ma-Ojm">
+                                <rect key="frame" x="0.0" y="190" width="375" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eRL-dZ-mXu" firstAttribute="trailing" secondItem="Kzz-hB-UT4" secondAttribute="trailing" constant="25" id="SC8-BV-mRd"/>
+                            <constraint firstItem="Kzz-hB-UT4" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" constant="25" id="he0-FE-651"/>
+                            <constraint firstItem="Kzz-hB-UT4" firstAttribute="top" secondItem="eRL-dZ-mXu" secondAttribute="top" constant="100" id="uyp-oS-7J1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eRL-dZ-mXu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wu2-Zt-1RV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1532" y="134.48275862068968"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="sad orangutan 1" width="656" height="300"/>
+        <image name="sad orangutan 2" width="480" height="320"/>
+    </resources>
 </document>
