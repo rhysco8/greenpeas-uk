@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
 		C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5922FAE71100D9FA29 /* ViewController.swift */; };
 		C6308F5D22FAE71100D9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F5B22FAE71100D9FA29 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F5722FAE71100D9FA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6308F5922FAE71100D9FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				C6308F5722FAE71100D9FA29 /* AppDelegate.swift */,
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
+				98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */,
 				C6308F5E22FAE71200D9FA29 /* Assets.xcassets */,
 				C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */,
 				C6308F6322FAE71200D9FA29 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
+				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
