@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7EC2EE22FAEEA400CE897F /* scannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2ED22FAEEA400CE897F /* scannerTests.swift */; };
+		3F7EC2F622FB045E00CE897F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2F522FB045E00CE897F /* ScannerViewController.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
 		C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5922FAE71100D9FA29 /* ViewController.swift */; };
 		C6308F5D22FAE71100D9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F5B22FAE71100D9FA29 /* Main.storyboard */; };
@@ -17,6 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3F7EC2F022FAEEA400CE897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6308F4C22FAE71100D9FA29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6308F5322FAE71100D9FA29;
+			remoteInfo = "guilt-tripper";
+		};
 		C6308F6922FAE71200D9FA29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C6308F4C22FAE71100D9FA29 /* Project object */;
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F7EC2EB22FAEEA400CE897F /* scannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EC2ED22FAEEA400CE897F /* scannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scannerTests.swift; sourceTree = "<group>"; };
+		3F7EC2EF22FAEEA400CE897F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7EC2F522FB045E00CE897F /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F5722FAE71100D9FA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6308F5922FAE71100D9FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F7EC2E822FAEEA400CE897F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6308F5122FAE71100D9FA29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F7EC2EC22FAEEA400CE897F /* scannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EC2ED22FAEEA400CE897F /* scannerTests.swift */,
+				3F7EC2EF22FAEEA400CE897F /* Info.plist */,
+			);
+			path = scannerTests;
+			sourceTree = "<group>";
+		};
 		C6308F4B22FAE71100D9FA29 = {
 			isa = PBXGroup;
 			children = (
 				C6308F5622FAE71100D9FA29 /* guilt-tripper */,
 				C6308F6B22FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7622FAE71200D9FA29 /* guilt-tripperUITests */,
+				3F7EC2EC22FAEEA400CE897F /* scannerTests */,
 				C6308F5522FAE71100D9FA29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +120,7 @@
 				C6308F5422FAE71100D9FA29 /* guilt-tripper.app */,
 				C6308F6822FAE71200D9FA29 /* guilt-tripperTests.xctest */,
 				C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */,
+				3F7EC2EB22FAEEA400CE897F /* scannerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +134,7 @@
 				C6308F5E22FAE71200D9FA29 /* Assets.xcassets */,
 				C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */,
 				C6308F6322FAE71200D9FA29 /* Info.plist */,
+				3F7EC2F522FB045E00CE897F /* ScannerViewController.swift */,
 			);
 			path = "guilt-tripper";
 			sourceTree = "<group>";
@@ -128,6 +160,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F7EC2EA22FAEEA400CE897F /* scannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7EC2F422FAEEA400CE897F /* Build configuration list for PBXNativeTarget "scannerTests" */;
+			buildPhases = (
+				3F7EC2E722FAEEA400CE897F /* Sources */,
+				3F7EC2E822FAEEA400CE897F /* Frameworks */,
+				3F7EC2E922FAEEA400CE897F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7EC2F122FAEEA400CE897F /* PBXTargetDependency */,
+			);
+			name = scannerTests;
+			productName = scannerTests;
+			productReference = 3F7EC2EB22FAEEA400CE897F /* scannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C6308F5322FAE71100D9FA29 /* guilt-tripper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6308F7C22FAE71200D9FA29 /* Build configuration list for PBXNativeTarget "guilt-tripper" */;
@@ -191,6 +241,10 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Greenpeas UK";
 				TargetAttributes = {
+					3F7EC2EA22FAEEA400CE897F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C6308F5322FAE71100D9FA29;
+					};
 					C6308F5322FAE71100D9FA29 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -220,11 +274,19 @@
 				C6308F5322FAE71100D9FA29 /* guilt-tripper */,
 				C6308F6722FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7222FAE71200D9FA29 /* guilt-tripperUITests */,
+				3F7EC2EA22FAEEA400CE897F /* scannerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F7EC2E922FAEEA400CE897F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6308F5222FAE71100D9FA29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,11 +314,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F7EC2E722FAEEA400CE897F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7EC2EE22FAEEA400CE897F /* scannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6308F5022FAE71100D9FA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
+				3F7EC2F622FB045E00CE897F /* ScannerViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +351,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F7EC2F122FAEEA400CE897F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6308F5322FAE71100D9FA29 /* guilt-tripper */;
+			targetProxy = 3F7EC2F022FAEEA400CE897F /* PBXContainerItemProxy */;
+		};
 		C6308F6A22FAE71200D9FA29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C6308F5322FAE71100D9FA29 /* guilt-tripper */;
@@ -312,6 +388,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F7EC2F222FAEEA400CE897F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = scannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "guilt-tripper.scannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
+			};
+			name = Debug;
+		};
+		3F7EC2F322FAEEA400CE897F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = scannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "guilt-tripper.scannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
+			};
+			name = Release;
+		};
 		C6308F7A22FAE71200D9FA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -549,6 +663,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F7EC2F422FAEEA400CE897F /* Build configuration list for PBXNativeTarget "scannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7EC2F222FAEEA400CE897F /* Debug */,
+				3F7EC2F322FAEEA400CE897F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C6308F4F22FAE71100D9FA29 /* Build configuration list for PBXProject "guilt-tripper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
