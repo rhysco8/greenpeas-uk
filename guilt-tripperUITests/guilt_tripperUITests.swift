@@ -34,7 +34,7 @@ class guilt_tripperUITests: XCTestCase {
         let app = XCUIApplication()
         app.buttons["Scan barcode"].tap()
     
-        XCTAssert(app.staticTexts["GUILT TRIPPER"].exists)
+        XCTAssertTrue(app.staticTexts["GUILT TRIPPER"].exists)
         
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
