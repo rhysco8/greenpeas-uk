@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
+		AA6753B122FD770000A85959 /* guilt-tripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6753B022FD770000A85959 /* guilt-tripperTests.swift */; };
+		AA6753B222FD794B00A85959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
+		AA6753B322FD7A6A00A85959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5922FAE71100D9FA29 /* ViewController.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
 		C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5922FAE71100D9FA29 /* ViewController.swift */; };
 		C6308F5D22FAE71100D9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F5B22FAE71100D9FA29 /* Main.storyboard */; };
 		C6308F5F22FAE71200D9FA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6308F5E22FAE71200D9FA29 /* Assets.xcassets */; };
 		C6308F6222FAE71200D9FA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */; };
-		C6308F6D22FAE71200D9FA29 /* guilt_tripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F6C22FAE71200D9FA29 /* guilt_tripperTests.swift */; };
 		C6308F7822FAE71200D9FA29 /* guilt_tripperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F7722FAE71200D9FA29 /* guilt_tripperUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C6308F6922FAE71200D9FA29 /* PBXContainerItemProxy */ = {
+		AA6753A922FD75BB00A85959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C6308F4C22FAE71100D9FA29 /* Project object */;
 			proxyType = 1;
@@ -36,6 +38,10 @@
 
 /* Begin PBXFileReference section */
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
+		AA6753A422FD75BB00A85959 /* guilt-tripperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6753A622FD75BB00A85959 /* guilt_tripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guilt_tripperTests.swift; sourceTree = "<group>"; };
+		AA6753A822FD75BB00A85959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6753B022FD770000A85959 /* guilt-tripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "guilt-tripperTests.swift"; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F5722FAE71100D9FA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6308F5922FAE71100D9FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,23 +49,20 @@
 		C6308F5E22FAE71200D9FA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6308F6122FAE71200D9FA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6308F6322FAE71200D9FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6308F6822FAE71200D9FA29 /* guilt-tripperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6308F6C22FAE71200D9FA29 /* guilt_tripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guilt_tripperTests.swift; sourceTree = "<group>"; };
-		C6308F6E22FAE71200D9FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F7722FAE71200D9FA29 /* guilt_tripperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guilt_tripperUITests.swift; sourceTree = "<group>"; };
 		C6308F7922FAE71200D9FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6308F5122FAE71100D9FA29 /* Frameworks */ = {
+		AA6753A122FD75BB00A85959 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6308F6522FAE71200D9FA29 /* Frameworks */ = {
+		C6308F5122FAE71100D9FA29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,12 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA6753A522FD75BB00A85959 /* guilt-tripperTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6753A622FD75BB00A85959 /* guilt_tripperTests.swift */,
+				AA6753A822FD75BB00A85959 /* Info.plist */,
+			);
+			path = "guilt-tripperTests";
+			sourceTree = "<group>";
+		};
 		C6308F4B22FAE71100D9FA29 = {
 			isa = PBXGroup;
 			children = (
+				AA6753B022FD770000A85959 /* guilt-tripperTests.swift */,
 				C6308F5622FAE71100D9FA29 /* guilt-tripper */,
-				C6308F6B22FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7622FAE71200D9FA29 /* guilt-tripperUITests */,
+				AA6753A522FD75BB00A85959 /* guilt-tripperTests */,
 				C6308F5522FAE71100D9FA29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				C6308F5422FAE71100D9FA29 /* guilt-tripper.app */,
-				C6308F6822FAE71200D9FA29 /* guilt-tripperTests.xctest */,
 				C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */,
+				AA6753A422FD75BB00A85959 /* guilt-tripperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,15 +123,6 @@
 			path = "guilt-tripper";
 			sourceTree = "<group>";
 		};
-		C6308F6B22FAE71200D9FA29 /* guilt-tripperTests */ = {
-			isa = PBXGroup;
-			children = (
-				C6308F6C22FAE71200D9FA29 /* guilt_tripperTests.swift */,
-				C6308F6E22FAE71200D9FA29 /* Info.plist */,
-			);
-			path = "guilt-tripperTests";
-			sourceTree = "<group>";
-		};
 		C6308F7622FAE71200D9FA29 /* guilt-tripperUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AA6753A322FD75BB00A85959 /* guilt-tripperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6753AB22FD75BB00A85959 /* Build configuration list for PBXNativeTarget "guilt-tripperTests" */;
+			buildPhases = (
+				AA6753A022FD75BB00A85959 /* Sources */,
+				AA6753A122FD75BB00A85959 /* Frameworks */,
+				AA6753A222FD75BB00A85959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6753AA22FD75BB00A85959 /* PBXTargetDependency */,
+			);
+			name = "guilt-tripperTests";
+			productName = "guilt-tripperTests";
+			productReference = AA6753A422FD75BB00A85959 /* guilt-tripperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C6308F5322FAE71100D9FA29 /* guilt-tripper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6308F7C22FAE71200D9FA29 /* Build configuration list for PBXNativeTarget "guilt-tripper" */;
@@ -147,24 +169,6 @@
 			productName = "guilt-tripper";
 			productReference = C6308F5422FAE71100D9FA29 /* guilt-tripper.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C6308F6722FAE71200D9FA29 /* guilt-tripperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6308F7F22FAE71200D9FA29 /* Build configuration list for PBXNativeTarget "guilt-tripperTests" */;
-			buildPhases = (
-				C6308F6422FAE71200D9FA29 /* Sources */,
-				C6308F6522FAE71200D9FA29 /* Frameworks */,
-				C6308F6622FAE71200D9FA29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C6308F6A22FAE71200D9FA29 /* PBXTargetDependency */,
-			);
-			name = "guilt-tripperTests";
-			productName = "guilt-tripperTests";
-			productReference = C6308F6822FAE71200D9FA29 /* guilt-tripperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C6308F7222FAE71200D9FA29 /* guilt-tripperUITests */ = {
 			isa = PBXNativeTarget;
@@ -194,12 +198,13 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Greenpeas UK";
 				TargetAttributes = {
+					AA6753A322FD75BB00A85959 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+						TestTargetID = C6308F5322FAE71100D9FA29;
+					};
 					C6308F5322FAE71100D9FA29 = {
 						CreatedOnToolsVersion = 10.3;
-					};
-					C6308F6722FAE71200D9FA29 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = C6308F5322FAE71100D9FA29;
 					};
 					C6308F7222FAE71200D9FA29 = {
 						CreatedOnToolsVersion = 10.3;
@@ -221,13 +226,20 @@
 			projectRoot = "";
 			targets = (
 				C6308F5322FAE71100D9FA29 /* guilt-tripper */,
-				C6308F6722FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7222FAE71200D9FA29 /* guilt-tripperUITests */,
+				AA6753A322FD75BB00A85959 /* guilt-tripperTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AA6753A222FD75BB00A85959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6308F5222FAE71100D9FA29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,13 +247,6 @@
 				C6308F6222FAE71200D9FA29 /* LaunchScreen.storyboard in Resources */,
 				C6308F5F22FAE71200D9FA29 /* Assets.xcassets in Resources */,
 				C6308F5D22FAE71100D9FA29 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6308F6622FAE71200D9FA29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +260,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AA6753A022FD75BB00A85959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6753B322FD7A6A00A85959 /* ViewController.swift in Sources */,
+				AA6753B222FD794B00A85959 /* AppDelegate.swift in Sources */,
+				AA6753B122FD770000A85959 /* guilt-tripperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6308F5022FAE71100D9FA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,14 +277,6 @@
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6308F6422FAE71200D9FA29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6308F6D22FAE71200D9FA29 /* guilt_tripperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +291,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C6308F6A22FAE71200D9FA29 /* PBXTargetDependency */ = {
+		AA6753AA22FD75BB00A85959 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C6308F5322FAE71100D9FA29 /* guilt-tripper */;
-			targetProxy = C6308F6922FAE71200D9FA29 /* PBXContainerItemProxy */;
+			targetProxy = AA6753A922FD75BB00A85959 /* PBXContainerItemProxy */;
 		};
 		C6308F7522FAE71200D9FA29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -316,6 +323,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AA6753AC22FD75BB00A85959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "guilt-tripperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cf.guilt-tripperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
+			};
+			name = Debug;
+		};
+		AA6753AD22FD75BB00A85959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "guilt-tripperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cf.guilt-tripperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
+			};
+			name = Release;
+		};
 		C6308F7A22FAE71200D9FA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -468,48 +516,6 @@
 			};
 			name = Release;
 		};
-		C6308F8022FAE71200D9FA29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98TGH9BADU;
-				INFOPLIST_FILE = "guilt-tripperTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripperTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
-			};
-			name = Debug;
-		};
-		C6308F8122FAE71200D9FA29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98TGH9BADU;
-				INFOPLIST_FILE = "guilt-tripperTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripperTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
-			};
-			name = Release;
-		};
 		C6308F8322FAE71200D9FA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,6 +559,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AA6753AB22FD75BB00A85959 /* Build configuration list for PBXNativeTarget "guilt-tripperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6753AC22FD75BB00A85959 /* Debug */,
+				AA6753AD22FD75BB00A85959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C6308F4F22FAE71100D9FA29 /* Build configuration list for PBXProject "guilt-tripper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -567,15 +582,6 @@
 			buildConfigurations = (
 				C6308F7D22FAE71200D9FA29 /* Debug */,
 				C6308F7E22FAE71200D9FA29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C6308F7F22FAE71200D9FA29 /* Build configuration list for PBXNativeTarget "guilt-tripperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6308F8022FAE71200D9FA29 /* Debug */,
-				C6308F8122FAE71200D9FA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

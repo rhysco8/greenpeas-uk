@@ -2,12 +2,11 @@
 //  guilt_tripperTests.swift
 //  guilt-tripperTests
 //
-//  Created by Rachel Griffiths on 07/08/2019.
+//  Created by Celia From on 2019-08-09.
 //  Copyright © 2019 Greenpeas UK. All rights reserved.
 //
 
 import XCTest
-@testable import guilt_tripper
 
 class guilt_tripperTests: XCTestCase {
 
