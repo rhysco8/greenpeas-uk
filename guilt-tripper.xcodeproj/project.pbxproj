@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
 		AA6753A422FD75BB00A85959 /* guilt-tripperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA6753A622FD75BB00A85959 /* guilt_tripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guilt_tripperTests.swift; sourceTree = "<group>"; };
 		AA6753A822FD75BB00A85959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA6753B022FD770000A85959 /* guilt-tripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "guilt-tripperTests.swift"; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +81,7 @@
 		AA6753A522FD75BB00A85959 /* guilt-tripperTests */ = {
 			isa = PBXGroup;
 			children = (
-				AA6753A622FD75BB00A85959 /* guilt_tripperTests.swift */,
+				AA6753B022FD770000A85959 /* guilt-tripperTests.swift */,
 				AA6753A822FD75BB00A85959 /* Info.plist */,
 			);
 			path = "guilt-tripperTests";
@@ -91,7 +90,6 @@
 		C6308F4B22FAE71100D9FA29 = {
 			isa = PBXGroup;
 			children = (
-				AA6753B022FD770000A85959 /* guilt-tripperTests.swift */,
 				C6308F5622FAE71100D9FA29 /* guilt-tripper */,
 				C6308F7622FAE71200D9FA29 /* guilt-tripperUITests */,
 				AA6753A522FD75BB00A85959 /* guilt-tripperTests */,
