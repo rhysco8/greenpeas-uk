@@ -16,7 +16,7 @@ class guilt_tripperTests: XCTestCase {
     override func setUp() {
     // Put setup code here. This method is called before the invocation of each test method in the class.
         super.setUp()
-        sut = UIStoryboard(name: "View Controller", bundle: nil).instantiateInitialViewController() as? ViewController
+        sut = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? ViewController
     }
 
     override func tearDown() {
@@ -25,14 +25,18 @@ class guilt_tripperTests: XCTestCase {
         super.tearDown()
     }
     
-    func testsButtonRedirects() {
-        var button = UIButton()
+    func testButtonIsInitialized() {
         
-        button["Scan barcode"].tap()
+        XCTAssertFalse(((sut?.scanButton) != nil))
     }
-    
-    
-    
-    
-    
+//    func testsButtonRedirects() {
+//        //given
+//        var button = UIButton()
+//
+//        //when
+//
+//
+//        //then
+//
+//    }
 }
