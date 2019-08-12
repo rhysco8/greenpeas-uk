@@ -207,38 +207,13 @@
                                 <rect key="frame" x="-40" y="320" width="455" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYN-lt-WKK">
-                                <rect key="frame" x="112" y="561" width="150" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next product"/>
-                                <connections>
-                                    <segue destination="nCC-HA-6on" kind="show" id="J41-mK-Tcc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Vo-Pf-U5P">
-                                <rect key="frame" x="112" y="561" width="150" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next product"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxb-Wn-Emd">
-                                <rect key="frame" x="112" y="561" width="150" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next product"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sV9-Oi-ZAm">
-                                <rect key="frame" x="112" y="561" width="150" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next product"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsl-dw-E7A">
-                                <rect key="frame" x="112" y="561" width="150" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next product"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmz-0U-OSj">
                                 <rect key="frame" x="112" y="561" width="150" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next product"/>
+                                <connections>
+                                    <segue destination="nCC-HA-6on" kind="show" id="2fs-Og-YQ0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -264,6 +239,6 @@
         <image name="sad orangutan 2" width="480" height="320"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="J41-mK-Tcc"/>
+        <segue reference="2fs-Og-YQ0"/>
     </inferredMetricsTieBreakers>
 </document>
