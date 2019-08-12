@@ -69,59 +69,60 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oMu-ye-BGt">
-                                <rect key="frame" x="86" y="520" width="203" height="109"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="huR-dX-3su">
+                                <rect key="frame" x="73" y="235" width="248" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.57982981204986572" green="0.089238829910755157" blue="0.31603145599365234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Dark Chocolate Spread">
-                                            <attributes>
-                                                <color key="NSColor" red="0.94540756940841675" green="0.71003514528274536" blue="0.87300306558609009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="19" name="Chalkduster"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FIo-46-8U0">
-                                <rect key="frame" x="86" y="394" width="203" height="109"/>
-                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <state key="normal" title="Nutella">
-                                    <color key="titleColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="09P-WO-FIN" kind="show" id="IIO-i7-wNq"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oMu-ye-BGt">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="36"/>
+                                        <color key="backgroundColor" red="0.57982981204986572" green="0.089238829910755157" blue="0.31603145599365234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Dark Chocolate Spread">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.94540756940841675" green="0.71003514528274536" blue="0.87300306558609009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="19" name="Chalkduster"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FIo-46-8U0">
+                                        <rect key="frame" x="0.0" y="36" width="248" height="38"/>
+                                        <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <state key="normal" title="Nutella">
+                                            <color key="titleColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="09P-WO-FIN" kind="show" id="IIO-i7-wNq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="FIo-46-8U0" firstAttribute="top" secondItem="Ytn-bx-BqY" secondAttribute="bottom" constant="255" id="3oe-gF-rYc"/>
-                            <constraint firstItem="sxQ-UW-Rqw" firstAttribute="bottom" secondItem="FIo-46-8U0" secondAttribute="bottom" constant="155" id="S7R-i2-cHR"/>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="Ytn-bx-BqY" secondAttribute="trailing" constant="25" id="VQv-ei-y5G"/>
-                            <constraint firstItem="FIo-46-8U0" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="100" id="aHP-Kk-HvX"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="25" id="bho-nb-J3y"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="top" secondItem="sxQ-UW-Rqw" secondAttribute="top" constant="100" id="dGw-mW-F5X"/>
-                            <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="FIo-46-8U0" secondAttribute="trailing" constant="100" id="gAv-T9-h4a"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sxQ-UW-Rqw"/>
                     </view>
