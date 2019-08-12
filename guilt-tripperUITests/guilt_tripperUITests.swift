@@ -31,6 +31,6 @@ class guilt_tripperUITests: XCTestCase {
 
     func testScanBarcode() {
         XCTAssertTrue(app.staticTexts["GUILT TRIPPER"].exists)
-        app.buttons["Scan barcode"].tap()
+        app.buttons["Select Product"].tap()
     }
 }
