@@ -158,6 +158,22 @@
                                 <rect key="frame" x="0.0" y="190" width="375" height="258"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t02-Re-DCR">
+                                <rect key="frame" x="91" y="403" width="192" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.57982981200000006" green="0.089238829909999998" blue="0.31603145599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Find Out More">
+                                            <attributes>
+                                                <color key="NSColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="Chalkduster"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -167,6 +183,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eRL-dZ-mXu"/>
                     </view>
+                    <connections>
+                        <outlet property="findOutMoreButton" destination="t02-Re-DCR" id="c7f-sy-6Xu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wu2-Zt-1RV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

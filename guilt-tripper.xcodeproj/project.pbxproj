@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
+		AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
 		C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5922FAE71100D9FA29 /* ViewController.swift */; };
 		C6308F5D22FAE71100D9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F5B22FAE71100D9FA29 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		C6308F6222FAE71200D9FA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */; };
 		C6308F6D22FAE71200D9FA29 /* guilt_tripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F6C22FAE71200D9FA29 /* guilt_tripperTests.swift */; };
 		C6308F7822FAE71200D9FA29 /* guilt_tripperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F7722FAE71200D9FA29 /* guilt_tripperUITests.swift */; };
-		C6A3984D22FC3C3800AA76A4 /* testPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3984C22FC3C3800AA76A4 /* testPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,17 +33,11 @@
 			remoteGlobalIDString = C6308F5322FAE71100D9FA29;
 			remoteInfo = "guilt-tripper";
 		};
-		C6A3984F22FC3C3800AA76A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6308F4C22FAE71100D9FA29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6308F5322FAE71100D9FA29;
-			remoteInfo = "guilt-tripper";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
+		AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiltTripViewController.swift; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F5722FAE71100D9FA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6308F5922FAE71100D9FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +51,6 @@
 		C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F7722FAE71200D9FA29 /* guilt_tripperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guilt_tripperUITests.swift; sourceTree = "<group>"; };
 		C6308F7922FAE71200D9FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6A3984A22FC3C3800AA76A4 /* testPractice.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPractice.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6A3984C22FC3C3800AA76A4 /* testPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPractice.swift; sourceTree = "<group>"; };
-		C6A3984E22FC3C3800AA76A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +75,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6A3984722FC3C3800AA76A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +84,6 @@
 				C6308F5622FAE71100D9FA29 /* guilt-tripper */,
 				C6308F6B22FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7622FAE71200D9FA29 /* guilt-tripperUITests */,
-				C6A3984B22FC3C3800AA76A4 /* testPractice */,
 				C6308F5522FAE71100D9FA29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,7 +94,6 @@
 				C6308F5422FAE71100D9FA29 /* guilt-tripper.app */,
 				C6308F6822FAE71200D9FA29 /* guilt-tripperTests.xctest */,
 				C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */,
-				C6A3984A22FC3C3800AA76A4 /* testPractice.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +104,7 @@
 				C6308F5722FAE71100D9FA29 /* AppDelegate.swift */,
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
+				AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */,
 				98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */,
 				C6308F5E22FAE71200D9FA29 /* Assets.xcassets */,
 				C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */,
@@ -146,15 +129,6 @@
 				C6308F7922FAE71200D9FA29 /* Info.plist */,
 			);
 			path = "guilt-tripperUITests";
-			sourceTree = "<group>";
-		};
-		C6A3984B22FC3C3800AA76A4 /* testPractice */ = {
-			isa = PBXGroup;
-			children = (
-				C6A3984C22FC3C3800AA76A4 /* testPractice.swift */,
-				C6A3984E22FC3C3800AA76A4 /* Info.plist */,
-			);
-			path = testPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,24 +187,6 @@
 			productReference = C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		C6A3984922FC3C3800AA76A4 /* testPractice */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6A3985322FC3C3800AA76A4 /* Build configuration list for PBXNativeTarget "testPractice" */;
-			buildPhases = (
-				C6A3984622FC3C3800AA76A4 /* Sources */,
-				C6A3984722FC3C3800AA76A4 /* Frameworks */,
-				C6A3984822FC3C3800AA76A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C6A3985022FC3C3800AA76A4 /* PBXTargetDependency */,
-			);
-			name = testPractice;
-			productName = testPractice;
-			productReference = C6A3984A22FC3C3800AA76A4 /* testPractice.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,10 +208,6 @@
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = C6308F5322FAE71100D9FA29;
 					};
-					C6A3984922FC3C3800AA76A4 = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = C6308F5322FAE71100D9FA29;
-					};
 				};
 			};
 			buildConfigurationList = C6308F4F22FAE71100D9FA29 /* Build configuration list for PBXProject "guilt-tripper" */;
@@ -274,7 +226,6 @@
 				C6308F5322FAE71100D9FA29 /* guilt-tripper */,
 				C6308F6722FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7222FAE71200D9FA29 /* guilt-tripperUITests */,
-				C6A3984922FC3C3800AA76A4 /* testPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -304,13 +255,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6A3984822FC3C3800AA76A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,6 +265,7 @@
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
+				AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,14 +285,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6A3984622FC3C3800AA76A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6A3984D22FC3C3800AA76A4 /* testPractice.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -360,11 +297,6 @@
 			isa = PBXTargetDependency;
 			target = C6308F5322FAE71100D9FA29 /* guilt-tripper */;
 			targetProxy = C6308F7422FAE71200D9FA29 /* PBXContainerItemProxy */;
-		};
-		C6A3985022FC3C3800AA76A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6308F5322FAE71100D9FA29 /* guilt-tripper */;
-			targetProxy = C6A3984F22FC3C3800AA76A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -509,13 +441,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98TGH9BADU;
+				DEVELOPMENT_TEAM = 8U79UBB8BU;
 				INFOPLIST_FILE = "guilt-tripper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,13 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98TGH9BADU;
+				DEVELOPMENT_TEAM = 8U79UBB8BU;
 				INFOPLIST_FILE = "guilt-tripper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,46 +554,6 @@
 			};
 			name = Release;
 		};
-		C6A3985122FC3C3800AA76A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98TGH9BADU;
-				INFOPLIST_FILE = testPractice/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.testPractice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
-			};
-			name = Debug;
-		};
-		C6A3985222FC3C3800AA76A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 98TGH9BADU;
-				INFOPLIST_FILE = testPractice/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.testPractice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guilt-tripper.app/guilt-tripper";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,15 +589,6 @@
 			buildConfigurations = (
 				C6308F8322FAE71200D9FA29 /* Debug */,
 				C6308F8422FAE71200D9FA29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C6A3985322FC3C3800AA76A4 /* Build configuration list for PBXNativeTarget "testPractice" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6A3985122FC3C3800AA76A4 /* Debug */,
-				C6A3985222FC3C3800AA76A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

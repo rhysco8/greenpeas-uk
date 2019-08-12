@@ -10,6 +10,8 @@ import UIKit
 
 class GuiltTripViewController: UIViewController {
 
+    @IBOutlet weak var findOutMoreButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
