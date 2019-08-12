@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7EC2FC2301A74E00CE897F /* WellDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FB2301A74E00CE897F /* WellDoneViewController.swift */; };
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		AA6753B122FD770000A85959 /* guilt-tripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6753B022FD770000A85959 /* guilt-tripperTests.swift */; };
 		AA6753B222FD794B00A85959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F7EC2FB2301A74E00CE897F /* WellDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellDoneViewController.swift; sourceTree = "<group>"; };
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
 		AA6753A422FD75BB00A85959 /* guilt-tripperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6753A822FD75BB00A85959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				C6308F5722FAE71100D9FA29 /* AppDelegate.swift */,
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
+				3F7EC2FB2301A74E00CE897F /* WellDoneViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
 				98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */,
 				C6308F5E22FAE71200D9FA29 /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7EC2FC2301A74E00CE897F /* WellDoneViewController.swift in Sources */,
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
