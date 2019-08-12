@@ -176,6 +176,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="caJ-cg-LCc" kind="show" id="aBk-JR-D8U"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -194,9 +197,64 @@
             </objects>
             <point key="canvasLocation" x="1532" y="134.48275862068968"/>
         </scene>
+        <!--Find Out More View Controller-->
+        <scene sceneID="MpV-0E-Ard">
+            <objects>
+                <viewController id="caJ-cg-LCc" customClass="FindOutMoreViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mnv-Ur-eW6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
+                                <rect key="frame" x="95" y="391" width="185" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Select Another Product">
+                                    <color key="titleColor" red="0.94479030369999994" green="0.70811373" blue="0.8757283092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="nCC-HA-6on" kind="show" id="kei-X9-6Qz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ote-3e-dj9">
+                                <rect key="frame" x="25" y="120" width="325" height="45.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="ote-3e-dj9" secondAttribute="trailing" constant="25" id="ZLj-Dl-0iq"/>
+                            <constraint firstItem="ote-3e-dj9" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="25" id="sia-hD-VGi"/>
+                            <constraint firstItem="ote-3e-dj9" firstAttribute="top" secondItem="UIj-Jv-lRh" secondAttribute="top" constant="100" id="wGb-SA-6c6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UIj-Jv-lRh"/>
+                    </view>
+                    <connections>
+                        <outlet property="returnToProductSelectButton" destination="bSG-UH-wxD" id="pLm-I7-abM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4m-8r-CAG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2252" y="134.48275862068968"/>
+        </scene>
     </scenes>
     <resources>
         <image name="sad orangutan 1" width="656" height="300"/>
         <image name="sad orangutan 2" width="480" height="320"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="kei-X9-6Qz"/>
+    </inferredMetricsTieBreakers>
 </document>
