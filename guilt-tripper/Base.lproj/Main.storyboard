@@ -69,11 +69,20 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FIo-46-8U0">
-                                <rect key="frame" x="100" y="420.5" width="175" height="91.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="oMu-ye-BGt">
+                                <rect key="frame" x="86" y="520" width="203" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.57982981204986572" green="0.089238829910755157" blue="0.31603145599365234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                <state key="normal" title="Dark Chocolate Spread">
+                                    <color key="titleColor" red="0.94540756940841675" green="0.71003514528274536" blue="0.87300306558609009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FIo-46-8U0">
+                                <rect key="frame" x="86" y="394" width="203" height="109"/>
                                 <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <state key="normal" title="Click here if you are about to buy Nutella">
+                                <state key="normal" title="Nutella">
                                     <color key="titleColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -98,10 +107,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sxQ-UW-Rqw"/>
                     </view>
+                    <connections>
+                        <outlet property="hasPalmOil" destination="FIo-46-8U0" id="ko7-uH-meE"/>
+                        <outlet property="nonPalmOil" destination="oMu-ye-BGt" id="qFo-at-KxI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvq-eT-7eP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="842" y="135"/>
+            <point key="canvasLocation" x="840.79999999999995" y="134.48275862068968"/>
         </scene>
     </scenes>
 </document>

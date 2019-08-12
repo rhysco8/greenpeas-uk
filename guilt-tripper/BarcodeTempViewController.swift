@@ -10,6 +10,9 @@ import UIKit
 
 class BarcodeTempViewController: UIViewController {
 
+    @IBOutlet weak var hasPalmOil: UIButton!
+    @IBOutlet weak var nonPalmOil: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
