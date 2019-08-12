@@ -8,11 +8,16 @@
 * Rachel Griffiths
 * Rhys Collier
 
-## Project Description
+## Description
 --------
 * An eco-friendly app that guilt-trips the user into not buying products that cause damage to the environment.
 
-## Project Installation
+## Project Documentation
+--------
+* Team kanban: https://trello.com/b/u7ugVOwG/greenpeas-uk
+* Team blog: https://tinyurl.com/yxbq3zeh
+
+## Installation
 --------
 * Clone repo: https://github.com/rhysco8/greenpeas-uk
 * Install Xcode
@@ -41,8 +46,12 @@
   - [ ] User is invited to find out more about the issue
 
 #### Future Version
--------
 - [ ] Check multiple products using a barcode scanner
 - [ ] Check for multiple ingredients which cause harm to the environment
 - [ ] Photos displayed change dependant on what ingredient is highlighted
-- [ ] Sounds are made depending on what ingredients are found e.g. applause
+- [ ] Sounds are made depending on what ingredients are found e.g. applause or aggressive alarm
+- [ ] Alternative products are suggested
+
+## App Simulation
+--------
+* Add video
