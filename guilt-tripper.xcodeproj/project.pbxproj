@@ -16,6 +16,8 @@
 		C6308F6222FAE71200D9FA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */; };
 		C6308F6D22FAE71200D9FA29 /* guilt_tripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F6C22FAE71200D9FA29 /* guilt_tripperTests.swift */; };
 		C6308F7822FAE71200D9FA29 /* guilt_tripperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F7722FAE71200D9FA29 /* guilt_tripperUITests.swift */; };
+		C66FF2FC2301BE6500F07ED2 /* FindOutMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66FF2FB2301BE6500F07ED2 /* FindOutMoreViewController.swift */; };
+		C66FF2FE2301C01800F07ED2 /* WellDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66FF2FD2301C01800F07ED2 /* WellDoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C6308F7322FAE71200D9FA29 /* guilt-tripperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guilt-tripperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F7722FAE71200D9FA29 /* guilt_tripperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guilt_tripperUITests.swift; sourceTree = "<group>"; };
 		C6308F7922FAE71200D9FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66FF2FB2301BE6500F07ED2 /* FindOutMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindOutMoreViewController.swift; sourceTree = "<group>"; };
+		C66FF2FD2301C01800F07ED2 /* WellDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellDoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				C6308F5722FAE71100D9FA29 /* AppDelegate.swift */,
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
+				C66FF2FB2301BE6500F07ED2 /* FindOutMoreViewController.swift */,
 				AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */,
 				98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */,
 				C6308F5E22FAE71200D9FA29 /* Assets.xcassets */,
 				C6308F6022FAE71200D9FA29 /* LaunchScreen.storyboard */,
 				C6308F6322FAE71200D9FA29 /* Info.plist */,
+				C66FF2FD2301C01800F07ED2 /* WellDoneViewController.swift */,
 			);
 			path = "guilt-tripper";
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66FF2FE2301C01800F07ED2 /* WellDoneViewController.swift in Sources */,
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
+				C66FF2FC2301BE6500F07ED2 /* FindOutMoreViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
 				AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */,
 			);
