@@ -126,8 +126,8 @@
                         <viewLayoutGuide key="safeArea" id="sxQ-UW-Rqw"/>
                     </view>
                     <connections>
-                        <outlet property="hasPalmOil" destination="FIo-46-8U0" id="ko7-uH-meE"/>
-                        <outlet property="nonPalmOil" destination="oMu-ye-BGt" id="qFo-at-KxI"/>
+                        <outlet property="hasPalmOilButton" destination="FIo-46-8U0" id="klm-RB-36V"/>
+                        <outlet property="noPalmOilButton" destination="oMu-ye-BGt" id="gpi-ff-nf7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvq-eT-7eP" userLabel="First Responder" sceneMemberID="firstResponder"/>
