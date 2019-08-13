@@ -8,7 +8,8 @@
 
 import Foundation
 
-let API_URL = "https://newsapi.org/v2/top-headlines?country=gb&q=palm+oil&apiKey=a0686c1726e74cf1a3305581912f4768"
+// Need to add query to API call
+let API_URL = "https://newsapi.org/v2/top-headlines?country=gb&apiKey=a0686c1726e74cf1a3305581912f4768"
 
 // Closure
 

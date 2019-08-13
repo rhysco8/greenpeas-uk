@@ -235,6 +235,30 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Wo-9My">
+                                <rect key="frame" x="153" y="250" width="54" height="61.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7C-c9-jcu">
+                                        <rect key="frame" x="0.0" y="0.0" width="54" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA7-Bz-sh2">
+                                        <rect key="frame" x="0.0" y="20.5" width="54" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpO-ug-HTD">
+                                        <rect key="frame" x="0.0" y="41" width="54" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -245,6 +269,9 @@
                         <viewLayoutGuide key="safeArea" id="UIj-Jv-lRh"/>
                     </view>
                     <connections>
+                        <outlet property="articleLinkLabel" destination="yA7-Bz-sh2" id="WIf-qi-Y49"/>
+                        <outlet property="articleSourceLabel" destination="QpO-ug-HTD" id="c1h-BR-cB1"/>
+                        <outlet property="articleTitleLabel" destination="j7C-c9-jcu" id="jzb-NN-V12"/>
                         <outlet property="returnToProductSelectButton" destination="bSG-UH-wxD" id="pLm-I7-abM"/>
                     </connections>
                 </viewController>

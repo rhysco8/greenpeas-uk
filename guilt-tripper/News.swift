@@ -12,12 +12,33 @@ import SwiftyJSON
 
 class News {
     
-    private var _name: String!
+    private var _source: String!
     private var _title: String!
     private var _link: String!
     
     // Possibly add in some code to check for nil & ""
     // github.com/zhiyao92/JSON-API/blob/master/API%20JSON/News.swift
+    
+    var source: String {
+        if _source == nil {
+            _source = ""
+        }
+        return _source
+    }
+    
+    var title: String {
+        if _title == nil {
+            _title = ""
+        }
+        return _title
+    }
+    
+    var link: String {
+        if _link == nil {
+            _link = ""
+        }
+        return _link
+    }
 
     // Closure
 
@@ -28,7 +49,7 @@ class News {
             let result = response.result
             let json = JSON(result.value!)
             
-            self._name = json["articles"][1]["source"]["name"].stringValue
+            self._source = json["articles"][1]["source"]["name"].stringValue
             
             self._title = json["articles"][1]["title"].stringValue
             

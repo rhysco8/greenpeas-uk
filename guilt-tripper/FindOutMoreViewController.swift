@@ -7,15 +7,35 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class FindOutMoreViewController: UIViewController {
 
     @IBOutlet weak var returnToProductSelectButton: UIButton!
     
+    @IBOutlet weak var articleTitleLabel: UILabel!
+    @IBOutlet weak var articleLinkLabel: UILabel!
+    @IBOutlet weak var articleSourceLabel: UILabel!
+
+    var news: News!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        news = News()
+        news.downloadNews {
+            DispatchQueue.main.async {
+                self.updateUI()
+            }
+        }
+    }
+    
+    func updateUI(){
+        articleTitleLabel.text = news.title 
+        articleLinkLabel.text = news.link
+        articleSourceLabel.text = news.source
     }
     
 
