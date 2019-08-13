@@ -12,11 +12,14 @@ import SwiftyJSON
 class FindOutMoreViewController: UIViewController {
 
     @IBOutlet weak var returnToProductSelectButton: UIButton!
+    @IBOutlet weak var articleTitleLabel1: UILabel!
+    @IBOutlet weak var articleLinkLabel1: UILabel!
+    @IBOutlet weak var articleSourceLabel1: UILabel!
+    @IBOutlet weak var articleTitleLabel2: UILabel!
+    @IBOutlet weak var articleLinkLabel2: UILabel!
+    @IBOutlet weak var articleSourceLabel2: UILabel!
     
-    @IBOutlet weak var articleTitleLabel: UILabel!
-    @IBOutlet weak var articleLinkLabel: UILabel!
-    @IBOutlet weak var articleSourceLabel: UILabel!
-
+    
     var news: News!
     
     override func viewDidLoad() {
@@ -33,9 +36,12 @@ class FindOutMoreViewController: UIViewController {
     }
     
     func updateUI(){
-        articleTitleLabel.text = news.title 
-        articleLinkLabel.text = news.link
-        articleSourceLabel.text = news.source
+        articleTitleLabel1.text = news.title1
+        articleLinkLabel1.text = news.link1
+        articleSourceLabel1.text = news.source1
+        articleTitleLabel2.text = news.title2
+        articleLinkLabel2.text = news.link2
+        articleSourceLabel2.text = news.source2
     }
     
 

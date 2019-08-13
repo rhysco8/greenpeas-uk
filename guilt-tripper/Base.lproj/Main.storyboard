@@ -208,9 +208,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
-                                <rect key="frame" x="95" y="391" width="185" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
+                                <rect key="frame" x="57" y="421" width="261" height="99"/>
                                 <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <state key="normal" title="Select Another Product">
@@ -236,7 +235,7 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Wo-9My">
-                                <rect key="frame" x="20" y="250" width="335" height="87.5"/>
+                                <rect key="frame" x="20" y="185.5" width="335" height="87.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7C-c9-jcu">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
@@ -258,22 +257,54 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="TjV-h0-pi6">
+                                <rect key="frame" x="20" y="293" width="335" height="87.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndx-dt-dov">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOe-6P-fkf">
+                                        <rect key="frame" x="0.0" y="33.5" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmv-gP-deU">
+                                        <rect key="frame" x="0.0" y="67" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="meJ-Wo-9My" secondAttribute="trailing" constant="20" id="1XC-PY-7rS"/>
-                            <constraint firstItem="meJ-Wo-9My" firstAttribute="top" secondItem="ote-3e-dj9" secondAttribute="bottom" constant="84.5" id="IyM-KC-ym6"/>
+                            <constraint firstItem="TjV-h0-pi6" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="H9U-9A-XGt"/>
+                            <constraint firstItem="meJ-Wo-9My" firstAttribute="top" secondItem="ote-3e-dj9" secondAttribute="bottom" constant="20" id="LUl-cg-hv6"/>
                             <constraint firstItem="meJ-Wo-9My" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="NHf-x0-13Q"/>
+                            <constraint firstItem="bSG-UH-wxD" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="57" id="SaQ-Js-1Ue"/>
+                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="TjV-h0-pi6" secondAttribute="trailing" constant="20" id="X5a-Ki-DHj"/>
+                            <constraint firstItem="bSG-UH-wxD" firstAttribute="top" secondItem="TjV-h0-pi6" secondAttribute="bottom" constant="40" id="XW3-5O-wCP"/>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="ote-3e-dj9" secondAttribute="trailing" constant="25" id="ZLj-Dl-0iq"/>
+                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="bSG-UH-wxD" secondAttribute="trailing" constant="57" id="s23-vv-a6e"/>
                             <constraint firstItem="ote-3e-dj9" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="25" id="sia-hD-VGi"/>
+                            <constraint firstItem="TjV-h0-pi6" firstAttribute="top" secondItem="meJ-Wo-9My" secondAttribute="bottom" constant="20" id="uHA-Hm-tOK"/>
                             <constraint firstItem="ote-3e-dj9" firstAttribute="top" secondItem="UIj-Jv-lRh" secondAttribute="top" constant="100" id="wGb-SA-6c6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UIj-Jv-lRh"/>
                     </view>
                     <connections>
-                        <outlet property="articleLinkLabel" destination="yA7-Bz-sh2" id="WIf-qi-Y49"/>
-                        <outlet property="articleSourceLabel" destination="QpO-ug-HTD" id="c1h-BR-cB1"/>
-                        <outlet property="articleTitleLabel" destination="j7C-c9-jcu" id="jzb-NN-V12"/>
+                        <outlet property="articleLinkLabel1" destination="yA7-Bz-sh2" id="lS0-Ca-Mlw"/>
+                        <outlet property="articleLinkLabel2" destination="FOe-6P-fkf" id="4t9-OJ-BDk"/>
+                        <outlet property="articleSourceLabel1" destination="QpO-ug-HTD" id="wBs-zM-FkF"/>
+                        <outlet property="articleSourceLabel2" destination="jmv-gP-deU" id="K2j-LK-1Fg"/>
+                        <outlet property="articleTitleLabel1" destination="j7C-c9-jcu" id="gwJ-t3-VoP"/>
+                        <outlet property="articleTitleLabel2" destination="Ndx-dt-dov" id="Gs3-eA-RDD"/>
                         <outlet property="returnToProductSelectButton" destination="bSG-UH-wxD" id="pLm-I7-abM"/>
                     </connections>
                 </viewController>
