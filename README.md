@@ -19,9 +19,17 @@
 
 ## Installation
 --------
-* Clone repo: https://github.com/rhysco8/greenpeas-uk
 * Install Xcode
-* Open project guilt-tripper
+
+* Command line instructions:
+ ```
+  cd path/to/project/folder
+  git clone git@github.com:rhysco8/greenpeas-uk.git
+  cd greenpeas-uk
+
+  xed guilt-tripper.xcworkspace
+  ```
+
 * Press play in top left corner of Xcode screen to launch simulator
 * Interact with App through simulator
 
