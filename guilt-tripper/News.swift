@@ -54,7 +54,7 @@ class News {
             self._title = json["articles"][1]["title"].stringValue
             
             self._link = json["articles"][1]["url"].stringValue
-            
+  
             completed()
         }
     }
