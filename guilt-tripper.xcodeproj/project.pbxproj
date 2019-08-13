@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,8 @@
 		065824BD99BD78ACA2C5399A /* Pods_guilt_tripper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */; };
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */; };
+		C6240ABD2302C684008116CF /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABC2302C684008116CF /* Extras.swift */; };
+		C6240ABF2302C964008116CF /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABE2302C964008116CF /* News.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
 		C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5922FAE71100D9FA29 /* ViewController.swift */; };
 		C6308F5D22FAE71100D9FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6308F5B22FAE71100D9FA29 /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 		AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiltTripViewController.swift; sourceTree = "<group>"; };
 		B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A09B03FDCB3DCF327C6FFF /* Pods-guilt-tripperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripperUITests.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripperUITests/Pods-guilt-tripperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6240ABC2302C684008116CF /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		C6240ABE2302C964008116CF /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6308F5722FAE71100D9FA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6308F5922FAE71100D9FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +121,6 @@
 				2ED64BA2DFE372ECFB92FA1C /* Pods-guilt-tripperUITests.debug.xcconfig */,
 				C0A09B03FDCB3DCF327C6FFF /* Pods-guilt-tripperUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +152,8 @@
 				C6308F5722FAE71100D9FA29 /* AppDelegate.swift */,
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
+				C6240ABC2302C684008116CF /* Extras.swift */,
+				C6240ABE2302C964008116CF /* News.swift */,
 				C66FF2FB2301BE6500F07ED2 /* FindOutMoreViewController.swift */,
 				AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */,
 				98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */,
@@ -401,6 +406,8 @@
 			files = (
 				C66FF2FE2301C01800F07ED2 /* WellDoneViewController.swift in Sources */,
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
+				C6240ABF2302C964008116CF /* News.swift in Sources */,
+				C6240ABD2302C684008116CF /* Extras.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
 				C66FF2FC2301BE6500F07ED2 /* FindOutMoreViewController.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
