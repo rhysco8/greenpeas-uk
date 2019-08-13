@@ -19,7 +19,6 @@ class FindOutMoreViewController: UIViewController {
     @IBOutlet weak var articleLinkLabel2: UILabel!
     @IBOutlet weak var articleSourceLabel2: UILabel!
     
-    
     var news: News!
     
     override func viewDidLoad() {

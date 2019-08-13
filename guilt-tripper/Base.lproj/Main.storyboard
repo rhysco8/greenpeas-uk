@@ -208,8 +208,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
-                                <rect key="frame" x="57" y="421" width="261" height="99"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
+                                <rect key="frame" x="57" y="420.5" width="261" height="38"/>
                                 <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <state key="normal" title="Select Another Product">
@@ -237,7 +237,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Wo-9My">
                                 <rect key="frame" x="20" y="185.5" width="335" height="87.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7C-c9-jcu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7C-c9-jcu">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -260,7 +260,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="TjV-h0-pi6">
                                 <rect key="frame" x="20" y="293" width="335" height="87.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndx-dt-dov">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndx-dt-dov">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -284,8 +284,10 @@
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="meJ-Wo-9My" secondAttribute="trailing" constant="20" id="1XC-PY-7rS"/>
+                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="bSG-UH-wxD" secondAttribute="trailing" constant="50" id="DRJ-sb-Xlw"/>
                             <constraint firstItem="TjV-h0-pi6" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="H9U-9A-XGt"/>
                             <constraint firstItem="meJ-Wo-9My" firstAttribute="top" secondItem="ote-3e-dj9" secondAttribute="bottom" constant="20" id="LUl-cg-hv6"/>
+                            <constraint firstItem="bSG-UH-wxD" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="50" id="MaQ-L6-kFh"/>
                             <constraint firstItem="meJ-Wo-9My" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="NHf-x0-13Q"/>
                             <constraint firstItem="bSG-UH-wxD" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="57" id="SaQ-Js-1Ue"/>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="TjV-h0-pi6" secondAttribute="trailing" constant="20" id="X5a-Ki-DHj"/>
