@@ -208,25 +208,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
-                                <rect key="frame" x="57" y="439.5" width="261" height="38"/>
-                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <state key="normal" title="Select Another Product">
-                                    <color key="titleColor" red="0.94479030369999994" green="0.70811373" blue="0.8757283092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
-                                        <integer key="value" value="0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="nCC-HA-6on" kind="show" id="kei-X9-6Qz"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ote-3e-dj9">
                                 <rect key="frame" x="25" y="120" width="325" height="45.5"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="35"/>
@@ -282,32 +263,78 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
+                                <rect key="frame" x="30" y="566.5" width="315" height="38"/>
+                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                <state key="normal" title="Select Another Product">
+                                    <color key="titleColor" red="0.94479030369999994" green="0.70811373" blue="0.8757283092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="nCC-HA-6on" kind="show" id="kei-X9-6Qz"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="2CS-pl-oNK">
+                                <rect key="frame" x="20" y="419.5" width="335" height="97"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AT-nr-V8Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8k-bT-FTr">
+                                        <rect key="frame" x="0.0" y="33.5" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPM-K9-Ypb">
+                                        <rect key="frame" x="0.0" y="67" width="335" height="30"/>
+                                        <state key="normal" title="Read more ..."/>
+                                        <connections>
+                                            <action selector="openArticleLink3:" destination="caJ-cg-LCc" eventType="touchUpInside" id="G4c-pl-vap"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="meJ-Wo-9My" secondAttribute="trailing" constant="20" id="1XC-PY-7rS"/>
-                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="bSG-UH-wxD" secondAttribute="trailing" constant="50" id="DRJ-sb-Xlw"/>
+                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="bSG-UH-wxD" secondAttribute="trailing" constant="30" id="BWE-Eo-WyO"/>
                             <constraint firstItem="TjV-h0-pi6" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="H9U-9A-XGt"/>
+                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="2CS-pl-oNK" secondAttribute="trailing" constant="20" id="L0x-Qs-ip3"/>
                             <constraint firstItem="meJ-Wo-9My" firstAttribute="top" secondItem="ote-3e-dj9" secondAttribute="bottom" constant="20" id="LUl-cg-hv6"/>
-                            <constraint firstItem="bSG-UH-wxD" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="50" id="MaQ-L6-kFh"/>
                             <constraint firstItem="meJ-Wo-9My" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="NHf-x0-13Q"/>
-                            <constraint firstItem="bSG-UH-wxD" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="57" id="SaQ-Js-1Ue"/>
+                            <constraint firstItem="2CS-pl-oNK" firstAttribute="top" secondItem="TjV-h0-pi6" secondAttribute="bottom" constant="20" id="NJU-DX-YCi"/>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="TjV-h0-pi6" secondAttribute="trailing" constant="20" id="X5a-Ki-DHj"/>
-                            <constraint firstItem="bSG-UH-wxD" firstAttribute="top" secondItem="TjV-h0-pi6" secondAttribute="bottom" constant="40" id="XW3-5O-wCP"/>
                             <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="ote-3e-dj9" secondAttribute="trailing" constant="25" id="ZLj-Dl-0iq"/>
-                            <constraint firstItem="UIj-Jv-lRh" firstAttribute="trailing" secondItem="bSG-UH-wxD" secondAttribute="trailing" constant="57" id="s23-vv-a6e"/>
+                            <constraint firstItem="2CS-pl-oNK" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="eFL-Ze-HUP"/>
+                            <constraint firstItem="bSG-UH-wxD" firstAttribute="top" secondItem="2CS-pl-oNK" secondAttribute="bottom" constant="50" id="nJb-rf-d5g"/>
                             <constraint firstItem="ote-3e-dj9" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="25" id="sia-hD-VGi"/>
                             <constraint firstItem="TjV-h0-pi6" firstAttribute="top" secondItem="meJ-Wo-9My" secondAttribute="bottom" constant="20" id="uHA-Hm-tOK"/>
+                            <constraint firstItem="bSG-UH-wxD" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="30" id="vjC-5a-NyE"/>
                             <constraint firstItem="ote-3e-dj9" firstAttribute="top" secondItem="UIj-Jv-lRh" secondAttribute="top" constant="100" id="wGb-SA-6c6"/>
+                            <constraint firstItem="2CS-pl-oNK" firstAttribute="leading" secondItem="UIj-Jv-lRh" secondAttribute="leading" constant="20" id="yIy-zi-Sge"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UIj-Jv-lRh"/>
                     </view>
                     <connections>
-                        <outlet property="articleLinkButton1" destination="yg6-qW-g7G" id="VAg-Gi-wjZ"/>
                         <outlet property="articleSourceLabel1" destination="QpO-ug-HTD" id="wBs-zM-FkF"/>
                         <outlet property="articleSourceLabel2" destination="jmv-gP-deU" id="K2j-LK-1Fg"/>
+                        <outlet property="articleSourceLabel3" destination="Z8k-bT-FTr" id="4nU-Sk-9hF"/>
                         <outlet property="articleTitleLabel1" destination="j7C-c9-jcu" id="gwJ-t3-VoP"/>
                         <outlet property="articleTitleLabel2" destination="Ndx-dt-dov" id="Gs3-eA-RDD"/>
+                        <outlet property="articleTitleLabel3" destination="1AT-nr-V8Y" id="LdS-Fm-hpB"/>
                         <outlet property="returnToProductSelectButton" destination="bSG-UH-wxD" id="pLm-I7-abM"/>
                     </connections>
                 </viewController>

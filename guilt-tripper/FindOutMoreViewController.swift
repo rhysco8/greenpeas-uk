@@ -15,12 +15,17 @@ class FindOutMoreViewController: UIViewController {
     @IBOutlet weak var returnToProductSelectButton: UIButton!
     
     @IBOutlet weak var articleTitleLabel1: UILabel!
-    @IBOutlet weak var articleLinkButton1: UIButton!
+    
     @IBOutlet weak var articleSourceLabel1: UILabel!
     
     @IBOutlet weak var articleTitleLabel2: UILabel!
 
     @IBOutlet weak var articleSourceLabel2: UILabel!
+    
+    @IBOutlet weak var articleTitleLabel3: UILabel!
+    
+    @IBOutlet weak var articleSourceLabel3: UILabel!
+    
     
     var news: News!
     
@@ -42,6 +47,8 @@ class FindOutMoreViewController: UIViewController {
         articleSourceLabel1.text = news.source1
         articleTitleLabel2.text = news.title2
         articleSourceLabel2.text = news.source2
+        articleTitleLabel3.text = news.title3
+        articleSourceLabel3.text = news.source3
     }
     
     @IBAction func openArticleLink1(_ sender: Any) {
@@ -58,6 +65,11 @@ class FindOutMoreViewController: UIViewController {
     }
     
 
+    @IBAction func openArticleLink3(_ sender: Any) {
+        guard let url = URL(string: news.link3) else { return }
+        let site = SFSafariViewController(url: url)
+        present(site, animated: true)
+    }
     /*
     // MARK: - Navigation
 
