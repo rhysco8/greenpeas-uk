@@ -72,8 +72,8 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-gF-him">
-                                <rect key="frame" x="20" y="384" width="335" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-gF-him">
+                                <rect key="frame" x="20" y="265.5" width="335" height="30"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter product name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsQ-Te-cv3">
                                         <rect key="frame" x="0.0" y="0.0" width="286" height="30"/>
@@ -94,6 +94,7 @@
                         <color key="backgroundColor" red="0.94540756940000004" green="0.7100351453" blue="0.87300306559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="vOq-gF-him" secondAttribute="trailing" constant="20" id="NCV-qv-cCH"/>
+                            <constraint firstItem="vOq-gF-him" firstAttribute="top" secondItem="Ytn-bx-BqY" secondAttribute="bottom" constant="100" id="Nru-8m-geN"/>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="Ytn-bx-BqY" secondAttribute="trailing" constant="25" id="VQv-ei-y5G"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="25" id="bho-nb-J3y"/>
                             <constraint firstItem="vOq-gF-him" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="20" id="cWX-Hg-AVu"/>
@@ -105,6 +106,7 @@
                         <outlet property="userProductTextField" destination="gsQ-Te-cv3" id="FR0-GT-6Mb"/>
                         <segue destination="09P-WO-FIN" kind="show" identifier="sadSegue" id="IB2-89-QOl"/>
                         <segue destination="cwf-Te-If2" kind="show" identifier="happySegue" id="tVO-bW-YRb"/>
+                        <segue destination="sAH-gp-V7N" kind="show" identifier="unknownProductSegue" id="PBn-TH-RMb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvq-eT-7eP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -366,6 +368,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xum-zx-kRH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2920.8000000000002" y="139.880059970015"/>
+        </scene>
+        <!--Unknown Product View Controller-->
+        <scene sceneID="61A-FD-8vw">
+            <objects>
+                <viewController id="sAH-gp-V7N" customClass="UnknownProductViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wqc-1u-o4V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZk-xX-Puq">
+                                <rect key="frame" x="25" y="120" width="325" height="45.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Product not found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuD-oi-xLi">
+                                <rect key="frame" x="45" y="266" width="285" height="51"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ega-Th-g9l">
+                                <rect key="frame" x="40" y="488" width="295" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
+                                <state key="normal" title="Select Another Product">
+                                    <color key="titleColor" red="0.94479030369999994" green="0.70811373" blue="0.8757283092" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nCC-HA-6on" kind="show" identifier="returnToProductSelect" id="Q49-66-AoZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94540756940841675" green="0.71003514528274536" blue="0.87300306558609009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VZk-xX-Puq" firstAttribute="top" secondItem="hGY-Bu-fVA" secondAttribute="top" constant="100" id="5Hg-Y3-U5N"/>
+                            <constraint firstItem="hGY-Bu-fVA" firstAttribute="trailing" secondItem="VZk-xX-Puq" secondAttribute="trailing" constant="25" id="G0w-9Z-Oor"/>
+                            <constraint firstItem="KuD-oi-xLi" firstAttribute="leading" secondItem="hGY-Bu-fVA" secondAttribute="leading" constant="45" id="T9R-n0-K1G"/>
+                            <constraint firstItem="hGY-Bu-fVA" firstAttribute="trailing" secondItem="KuD-oi-xLi" secondAttribute="trailing" constant="45" id="Yf7-hg-VeS"/>
+                            <constraint firstItem="VZk-xX-Puq" firstAttribute="leading" secondItem="hGY-Bu-fVA" secondAttribute="leading" constant="25" id="aEe-6J-tuI"/>
+                            <constraint firstItem="KuD-oi-xLi" firstAttribute="top" secondItem="VZk-xX-Puq" secondAttribute="bottom" constant="100" id="y9z-bI-IY2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hGY-Bu-fVA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S7R-Ju-eWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3600.8000000000002" y="139.880059970015"/>
         </scene>
     </scenes>
     <resources>

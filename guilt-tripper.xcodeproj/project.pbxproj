@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		034D58D60922FCA34279405A /* Pods_guilt_tripperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20592C42EB421ADB65632AA4 /* Pods_guilt_tripperUITests.framework */; };
 		065824BD99BD78ACA2C5399A /* Pods_guilt_tripper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */; };
+		3F7EC2FE2304545900CE897F /* UnknownProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */; };
+		3F7EC30023045ABF00CE897F /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FF23045ABF00CE897F /* Products.swift */; };
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */; };
 		C6240ABD2302C684008116CF /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABC2302C684008116CF /* Extras.swift */; };
@@ -46,6 +48,8 @@
 		20592C42EB421ADB65632AA4 /* Pods_guilt_tripperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED64BA2DFE372ECFB92FA1C /* Pods-guilt-tripperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripperUITests.debug.xcconfig"; path = "Target Support Files/Pods-guilt-tripperUITests/Pods-guilt-tripperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F1266EF00B7CB709DE60BFA /* Pods_guilt_tripperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownProductViewController.swift; sourceTree = "<group>"; };
+		3F7EC2FF23045ABF00CE897F /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		5A76B9476BF4F92732B01EC0 /* Pods-guilt-tripper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripper.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripper/Pods-guilt-tripper.release.xcconfig"; sourceTree = "<group>"; };
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
 		AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiltTripViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +156,9 @@
 				C6308F5722FAE71100D9FA29 /* AppDelegate.swift */,
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
+				3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */,
 				C6240ABC2302C684008116CF /* Extras.swift */,
+				3F7EC2FF23045ABF00CE897F /* Products.swift */,
 				C6240ABE2302C964008116CF /* News.swift */,
 				C66FF2FB2301BE6500F07ED2 /* FindOutMoreViewController.swift */,
 				AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */,
@@ -408,8 +414,10 @@
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
 				C6240ABF2302C964008116CF /* News.swift in Sources */,
 				C6240ABD2302C684008116CF /* Extras.swift in Sources */,
+				3F7EC2FE2304545900CE897F /* UnknownProductViewController.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
 				C66FF2FC2301BE6500F07ED2 /* FindOutMoreViewController.swift in Sources */,
+				3F7EC30023045ABF00CE897F /* Products.swift in Sources */,
 				C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */,
 				AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */,
 			);

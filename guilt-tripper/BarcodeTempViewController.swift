@@ -21,14 +21,13 @@ class BarcodeTempViewController: UIViewController {
     @IBAction func submitButton(_ sender: Any) {
         let userProductSelection = userProductTextField.text!
         
-        let palmOilProducts = ["Nutella"]
-        let nonPalmOilProducts = ["Waitrose Dark Chocolate Spread"]
         
         if palmOilProducts.contains(userProductSelection) {
             performSegue(withIdentifier: "sadSegue", sender: nil)
-        }
-        else if nonPalmOilProducts.contains(userProductSelection) {
+        } else if nonPalmOilProducts.contains(userProductSelection) {
             performSegue(withIdentifier: "happySegue", sender: nil)
+        } else {
+            performSegue(withIdentifier: "unknownProductSegue", sender: nil)
         }
     }
 }
