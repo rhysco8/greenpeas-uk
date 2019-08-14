@@ -9,9 +9,8 @@
 import UIKit
 
 class BarcodeTempViewController: UIViewController {
-
-    @IBOutlet weak var hasPalmOilButton: UIButton!
-    @IBOutlet weak var noPalmOilButton: UIButton!
+    
+    @IBOutlet weak var userProductTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,15 +18,16 @@ class BarcodeTempViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func submitButton(_ sender: Any) {
+        let userProductSelection = userProductTextField.text!
+        
+        
+        if palmOilProducts.contains(userProductSelection) {
+            performSegue(withIdentifier: "sadSegue", sender: nil)
+        } else if nonPalmOilProducts.contains(userProductSelection) {
+            performSegue(withIdentifier: "happySegue", sender: nil)
+        } else {
+            performSegue(withIdentifier: "unknownProductSegue", sender: nil)
+        }
     }
-    */
-
 }
