@@ -8,12 +8,13 @@
 
 import UIKit
 import SwiftyJSON
+import SafariServices
 
 class FindOutMoreViewController: UIViewController {
 
     @IBOutlet weak var returnToProductSelectButton: UIButton!
     @IBOutlet weak var articleTitleLabel1: UILabel!
-    @IBOutlet weak var articleLinkLabel1: UILabel!
+    @IBOutlet weak var articleLinkButton1: UIButton!
     @IBOutlet weak var articleSourceLabel1: UILabel!
     @IBOutlet weak var articleTitleLabel2: UILabel!
     @IBOutlet weak var articleLinkLabel2: UILabel!
@@ -36,12 +37,20 @@ class FindOutMoreViewController: UIViewController {
     
     func updateUI(){
         articleTitleLabel1.text = news.title1
-        articleLinkLabel1.text = news.link1
+  
         articleSourceLabel1.text = news.source1
         articleTitleLabel2.text = news.title2
         articleLinkLabel2.text = news.link2
         articleSourceLabel2.text = news.source2
     }
+    
+    @IBAction func openArticleLink1(_ sender: Any) {
+        guard let url = URL(string: news.link1) else { return }
+        let site = SFSafariViewController(url: url)
+        present(site, animated: true)
+    }
+    
+    
     
 
     /*
