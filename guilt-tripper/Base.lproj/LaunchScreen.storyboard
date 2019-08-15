@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,26 +15,40 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="sci-Sq-q6P">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="sci-Sq-q6P">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sci-Sq-q6P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2qN-Rb-hjo"/>
                             <constraint firstItem="sci-Sq-q6P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HAz-lI-PzY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sci-Sq-q6P" secondAttribute="trailing" id="df4-fs-l1z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sci-Sq-q6P" secondAttribute="trailing" id="hDQ-Yv-fI6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sci-Sq-q6P" secondAttribute="bottom" id="nDb-HL-nPb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sci-Sq-q6P" secondAttribute="bottom" id="rpF-oO-XfX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="df4-fs-l1z"/>
+                                <exclude reference="rpF-oO-XfX"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="df4-fs-l1z"/>
+                                <include reference="rpF-oO-XfX"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
+            <point key="canvasLocation" x="50.625" y="368.75"/>
         </scene>
     </scenes>
     <resources>
