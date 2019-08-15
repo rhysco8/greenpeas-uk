@@ -79,7 +79,7 @@ I can enter the product name into a text box and submit
 
 As an environmentally concerned shopper  
 So that I am guilt-tripped into not buying the product if it contains palm oil    
-I see pictures of sad orangutans in a deforested are and I can click on a 'Find Out More' button
+I see pictures of sad orangutans in a deforested area and I can click on a 'Find Out More' button
 
 As an environmentally concerned shopper  
 So that I can read the lates news headlines about palm oil  
@@ -90,7 +90,7 @@ So that I can feel good if the product doesn't contain palm oil
 I see a picture of a happy orangutan in a healthy forest and I'm congratulated
 
 As an environmentally concerned shopper  
-So that I know if the app doesn't contain a product i've searched for  
+So that I know if the app doesn't contain a product I've searched for  
 I see a message 'Product not found'
 
 As an environmentally concerned shopper  
