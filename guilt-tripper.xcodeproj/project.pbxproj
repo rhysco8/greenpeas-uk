@@ -11,6 +11,7 @@
 		065824BD99BD78ACA2C5399A /* Pods_guilt_tripper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */; };
 		3F7EC2FE2304545900CE897F /* UnknownProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */; };
 		3F7EC30023045ABF00CE897F /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FF23045ABF00CE897F /* Products.swift */; };
+		3F7EC30223058C3800CE897F /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC30123058C3800CE897F /* NSAttributedStringExtension.swift */; };
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */; };
 		C6240ABD2302C684008116CF /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABC2302C684008116CF /* Extras.swift */; };
@@ -50,6 +51,7 @@
 		3F1266EF00B7CB709DE60BFA /* Pods_guilt_tripperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownProductViewController.swift; sourceTree = "<group>"; };
 		3F7EC2FF23045ABF00CE897F /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		3F7EC30123058C3800CE897F /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSAttributedStringExtension.swift; path = "guilt-tripper/NSAttributedStringExtension.swift"; sourceTree = "<group>"; };
 		5A76B9476BF4F92732B01EC0 /* Pods-guilt-tripper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripper.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripper/Pods-guilt-tripper.release.xcconfig"; sourceTree = "<group>"; };
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
 		AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiltTripViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		C6308F4B22FAE71100D9FA29 = {
 			isa = PBXGroup;
 			children = (
+				3F7EC30123058C3800CE897F /* NSAttributedStringExtension.swift */,
 				C6308F5622FAE71100D9FA29 /* guilt-tripper */,
 				C6308F6B22FAE71200D9FA29 /* guilt-tripperTests */,
 				C6308F7622FAE71200D9FA29 /* guilt-tripperUITests */,
@@ -413,6 +416,7 @@
 				C66FF2FE2301C01800F07ED2 /* WellDoneViewController.swift in Sources */,
 				C6308F5A22FAE71100D9FA29 /* ViewController.swift in Sources */,
 				C6240ABF2302C964008116CF /* News.swift in Sources */,
+				3F7EC30223058C3800CE897F /* NSAttributedStringExtension.swift in Sources */,
 				C6240ABD2302C684008116CF /* Extras.swift in Sources */,
 				3F7EC2FE2304545900CE897F /* UnknownProductViewController.swift in Sources */,
 				98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */,
