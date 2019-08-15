@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="jf3-ta-rm3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IFj-n5-7mS">
-                                <rect key="frame" x="25" y="120" width="270" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
@@ -31,11 +31,11 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qem-94-rrv">
-                                <rect key="frame" x="100" y="421" width="120" height="38"/>
-                                <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
-                                <state key="normal" title="Select Product">
-                                    <color key="titleColor" red="0.93822699785232544" green="0.71165174245834351" blue="0.87201237678527832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="20" y="366" width="335" height="101"/>
+                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="35"/>
+                                <state key="normal" title="ENTER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="nCC-HA-6on" kind="show" id="fDM-B1-rXO"/>
@@ -46,17 +46,17 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="jf3-ta-rm3" secondAttribute="trailing" id="2tf-iN-bWP"/>
                             <constraint firstAttribute="bottom" secondItem="jf3-ta-rm3" secondAttribute="bottom" id="6Pn-Lc-QgX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qem-94-rrv" secondAttribute="trailing" constant="100" id="7Qj-Uz-obk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qem-94-rrv" secondAttribute="trailing" constant="20" id="7Qj-Uz-obk"/>
                             <constraint firstAttribute="bottom" secondItem="jf3-ta-rm3" secondAttribute="bottom" id="9tk-4L-hAp"/>
                             <constraint firstItem="jf3-ta-rm3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dnh-PT-M3y"/>
                             <constraint firstItem="jf3-ta-rm3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="E3o-Mg-cOO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qem-94-rrv" secondAttribute="bottom" constant="155" id="Elh-cd-5hL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qem-94-rrv" secondAttribute="bottom" constant="200" id="Elh-cd-5hL"/>
                             <constraint firstItem="jf3-ta-rm3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KQU-hg-dLE"/>
                             <constraint firstItem="jf3-ta-rm3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZyQ-k6-8mz"/>
                             <constraint firstItem="IFj-n5-7mS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="a9b-gH-wTp"/>
-                            <constraint firstItem="qem-94-rrv" firstAttribute="top" secondItem="IFj-n5-7mS" secondAttribute="bottom" constant="255" id="aEv-Vr-C4P"/>
+                            <constraint firstItem="qem-94-rrv" firstAttribute="top" secondItem="IFj-n5-7mS" secondAttribute="bottom" constant="200" id="aEv-Vr-C4P"/>
                             <constraint firstItem="jf3-ta-rm3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cqe-eT-WyV"/>
-                            <constraint firstItem="qem-94-rrv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="g1L-fs-nJz"/>
+                            <constraint firstItem="qem-94-rrv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="g1L-fs-nJz"/>
                             <constraint firstItem="IFj-n5-7mS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="gB0-kA-Zvm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFj-n5-7mS" secondAttribute="trailing" constant="25" id="gY6-yd-HcT"/>
                             <constraint firstItem="jf3-ta-rm3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zan-bQ-IrP"/>
@@ -94,14 +94,14 @@
             <objects>
                 <viewController id="nCC-HA-6on" customClass="BarcodeTempViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Krr-mC-hc1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="31G-vb-eCz">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ytn-bx-BqY">
-                                <rect key="frame" x="25" y="120" width="270" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
@@ -109,18 +109,22 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-gF-him">
-                                <rect key="frame" x="20" y="266" width="280" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-gF-him">
+                                <rect key="frame" x="20" y="366" width="335" height="101"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter product name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsQ-Te-cv3">
-                                        <rect key="frame" x="0.0" y="0.0" width="149" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textField opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter product name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsQ-Te-cv3">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="64"/>
+                                        <color key="textColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9E-eh-GRw">
-                                        <rect key="frame" x="149" y="0.0" width="131" height="30"/>
-                                        <state key="normal" title="Submit"/>
+                                        <rect key="frame" x="0.0" y="64" width="335" height="37"/>
+                                        <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="25"/>
+                                        <state key="normal" title="SUBMIT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="submitButton:" destination="nCC-HA-6on" eventType="touchUpInside" id="wr5-mT-Axr"/>
                                         </connections>
@@ -132,8 +136,9 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="31G-vb-eCz" secondAttribute="bottom" id="0yy-A3-XEw"/>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="vOq-gF-him" secondAttribute="trailing" constant="20" id="NCV-qv-cCH"/>
-                            <constraint firstItem="vOq-gF-him" firstAttribute="top" secondItem="Ytn-bx-BqY" secondAttribute="bottom" constant="100" id="Nru-8m-geN"/>
+                            <constraint firstItem="vOq-gF-him" firstAttribute="top" secondItem="Ytn-bx-BqY" secondAttribute="bottom" constant="200" id="Nru-8m-geN"/>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="Ytn-bx-BqY" secondAttribute="trailing" constant="25" id="VQv-ei-y5G"/>
+                            <constraint firstItem="sxQ-UW-Rqw" firstAttribute="bottom" secondItem="vOq-gF-him" secondAttribute="bottom" constant="200" id="Yg0-Rb-U2q"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="25" id="bho-nb-J3y"/>
                             <constraint firstItem="vOq-gF-him" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="20" id="cWX-Hg-AVu"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="top" secondItem="sxQ-UW-Rqw" secondAttribute="top" constant="100" id="dGw-mW-F5X"/>
@@ -175,14 +180,14 @@
             <objects>
                 <viewController id="09P-WO-FIN" customClass="GuiltTripViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jgI-Ju-4mx">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="T1g-ca-zlE">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kzz-hB-UT4">
-                                <rect key="frame" x="25" y="120" width="270" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
@@ -271,14 +276,14 @@
             <objects>
                 <viewController id="caJ-cg-LCc" customClass="FindOutMoreViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mnv-Ur-eW6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="S6z-pQ-Zdj">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ote-3e-dj9">
-                                <rect key="frame" x="25" y="120" width="270" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
@@ -287,22 +292,22 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="meJ-Wo-9My">
-                                <rect key="frame" x="20" y="186" width="280" height="97"/>
+                                <rect key="frame" x="20" y="186" width="335" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7C-c9-jcu">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpO-ug-HTD">
-                                        <rect key="frame" x="0.0" y="33.5" width="280" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="33.5" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yg6-qW-g7G">
-                                        <rect key="frame" x="0.0" y="67" width="280" height="30"/>
+                                        <rect key="frame" x="0.0" y="67" width="335" height="30"/>
                                         <state key="normal" title="Read more ..."/>
                                         <connections>
                                             <action selector="openArticleLink1:" destination="caJ-cg-LCc" eventType="touchUpInside" id="vp7-M8-7vC"/>
@@ -311,22 +316,22 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="TjV-h0-pi6">
-                                <rect key="frame" x="20" y="303" width="280" height="97"/>
+                                <rect key="frame" x="20" y="303" width="335" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndx-dt-dov">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmv-gP-deU">
-                                        <rect key="frame" x="0.0" y="33.5" width="280" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="33.5" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gal-YI-n29">
-                                        <rect key="frame" x="0.0" y="67" width="280" height="30"/>
+                                        <rect key="frame" x="0.0" y="67" width="335" height="30"/>
                                         <state key="normal" title="Read more ..."/>
                                         <connections>
                                             <action selector="openArticleLink2:" destination="caJ-cg-LCc" eventType="touchUpInside" id="KsU-8T-2f8"/>
@@ -335,7 +340,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bSG-UH-wxD">
-                                <rect key="frame" x="30" y="567" width="260" height="38"/>
+                                <rect key="frame" x="30" y="567" width="315" height="38"/>
                                 <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="0.96026862160000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
                                 <state key="normal" title="Select Another Product">
@@ -354,22 +359,22 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="2CS-pl-oNK">
-                                <rect key="frame" x="20" y="420" width="280" height="97"/>
+                                <rect key="frame" x="20" y="420" width="335" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AT-nr-V8Y">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8k-bT-FTr">
-                                        <rect key="frame" x="0.0" y="33.5" width="280" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="33.5" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPM-K9-Ypb">
-                                        <rect key="frame" x="0.0" y="67" width="280" height="30"/>
+                                        <rect key="frame" x="0.0" y="67" width="335" height="30"/>
                                         <state key="normal" title="Read more ..."/>
                                         <connections>
                                             <action selector="openArticleLink3:" destination="caJ-cg-LCc" eventType="touchUpInside" id="G4c-pl-vap"/>
@@ -447,14 +452,14 @@
             <objects>
                 <viewController id="cwf-Te-If2" customClass="WellDoneViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ch1-yI-ytF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="Hia-Kw-nfk">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yrW-MQ-VLU">
-                                <rect key="frame" x="25" y="120" width="270" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
@@ -527,14 +532,14 @@
             <objects>
                 <viewController id="sAH-gp-V7N" customClass="UnknownProductViewController" customModule="guilt_tripper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wqc-1u-o4V">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faded-background-image" translatesAutoresizingMaskIntoConstraints="NO" id="251-3G-6D3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VZk-xX-Puq">
-                                <rect key="frame" x="25" y="120" width="270" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
