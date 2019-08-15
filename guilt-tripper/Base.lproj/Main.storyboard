@@ -110,10 +110,11 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-gF-him">
-                                <rect key="frame" x="25" y="366" width="325" height="101"/>
+                                <rect key="frame" x="25" y="266" width="325" height="101"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter product name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsQ-Te-cv3">
+                                    <textField opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter product name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsQ-Te-cv3">
                                         <rect key="frame" x="0.0" y="0.0" width="325" height="64"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -136,9 +137,9 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="31G-vb-eCz" secondAttribute="bottom" id="0yy-A3-XEw"/>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="vOq-gF-him" secondAttribute="trailing" constant="25" id="NCV-qv-cCH"/>
-                            <constraint firstItem="vOq-gF-him" firstAttribute="top" secondItem="Ytn-bx-BqY" secondAttribute="bottom" constant="200" id="Nru-8m-geN"/>
+                            <constraint firstItem="vOq-gF-him" firstAttribute="top" secondItem="Ytn-bx-BqY" secondAttribute="bottom" constant="100" id="Nru-8m-geN"/>
                             <constraint firstItem="sxQ-UW-Rqw" firstAttribute="trailing" secondItem="Ytn-bx-BqY" secondAttribute="trailing" constant="25" id="VQv-ei-y5G"/>
-                            <constraint firstItem="sxQ-UW-Rqw" firstAttribute="bottom" secondItem="vOq-gF-him" secondAttribute="bottom" constant="200" id="Yg0-Rb-U2q"/>
+                            <constraint firstItem="sxQ-UW-Rqw" firstAttribute="bottom" secondItem="vOq-gF-him" secondAttribute="bottom" constant="300" id="Yg0-Rb-U2q"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="25" id="bho-nb-J3y"/>
                             <constraint firstItem="vOq-gF-him" firstAttribute="leading" secondItem="sxQ-UW-Rqw" secondAttribute="leading" constant="25" id="cWX-Hg-AVu"/>
                             <constraint firstItem="Ytn-bx-BqY" firstAttribute="top" secondItem="sxQ-UW-Rqw" secondAttribute="top" constant="100" id="dGw-mW-F5X"/>
@@ -659,6 +660,7 @@
         <image name="sad orangutan 2" width="480" height="320"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="PBn-TH-RMb"/>
         <segue reference="Q49-66-AoZ"/>
     </inferredMetricsTieBreakers>
 </document>
