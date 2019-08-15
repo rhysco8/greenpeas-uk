@@ -278,6 +278,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Powered by News API" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ze0-wB-P7o">
+                                <rect key="frame" x="195" y="628" width="180" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -307,6 +315,7 @@
                         <outlet property="articleTitleLabel1" destination="j7C-c9-jcu" id="gwJ-t3-VoP"/>
                         <outlet property="articleTitleLabel2" destination="Ndx-dt-dov" id="Gs3-eA-RDD"/>
                         <outlet property="articleTitleLabel3" destination="1AT-nr-V8Y" id="LdS-Fm-hpB"/>
+                        <outlet property="newsApiAttributionTextView" destination="ze0-wB-P7o" id="hby-U9-jFc"/>
                         <outlet property="returnToProductSelectButton" destination="bSG-UH-wxD" id="pLm-I7-abM"/>
                     </connections>
                 </viewController>
