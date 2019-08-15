@@ -76,13 +76,13 @@
                                 <rect key="frame" x="20" y="265.5" width="335" height="30"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter product name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsQ-Te-cv3">
-                                        <rect key="frame" x="0.0" y="0.0" width="286" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="149" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9E-eh-GRw">
-                                        <rect key="frame" x="286" y="0.0" width="49" height="30"/>
+                                        <rect key="frame" x="149" y="0.0" width="186" height="30"/>
                                         <state key="normal" title="Submit"/>
                                         <connections>
                                             <action selector="submitButton:" destination="nCC-HA-6on" eventType="touchUpInside" id="wr5-mT-Axr"/>
@@ -278,6 +278,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Powered by News API" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ze0-wB-P7o">
+                                <rect key="frame" x="195" y="628" width="180" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -307,6 +315,7 @@
                         <outlet property="articleTitleLabel1" destination="j7C-c9-jcu" id="gwJ-t3-VoP"/>
                         <outlet property="articleTitleLabel2" destination="Ndx-dt-dov" id="Gs3-eA-RDD"/>
                         <outlet property="articleTitleLabel3" destination="1AT-nr-V8Y" id="LdS-Fm-hpB"/>
+                        <outlet property="newsApiAttributionTextView" destination="ze0-wB-P7o" id="hby-U9-jFc"/>
                         <outlet property="returnToProductSelectButton" destination="bSG-UH-wxD" id="pLm-I7-abM"/>
                     </connections>
                 </viewController>
@@ -426,6 +435,6 @@
         <image name="sad orangutan 2" width="480" height="320"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fDM-B1-rXO"/>
+        <segue reference="kei-X9-6Qz"/>
     </inferredMetricsTieBreakers>
 </document>

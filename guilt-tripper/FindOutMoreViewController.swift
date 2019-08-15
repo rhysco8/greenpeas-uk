@@ -26,11 +26,13 @@ class FindOutMoreViewController: UIViewController {
     
     @IBOutlet weak var articleSourceLabel3: UILabel!
     
+    @IBOutlet weak var newsApiAttributionTextView: UITextView!
     
     var news: News!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateNewsApiAttribution()
 
         // Do any additional setup after loading the view.
         
@@ -69,6 +71,14 @@ class FindOutMoreViewController: UIViewController {
         guard let url = URL(string: news.link3) else { return }
         let site = SFSafariViewController(url: url)
         present(site, animated: true)
+    }
+    
+    func updateNewsApiAttribution() {
+        let path = "https://newsapi.org"
+        let text = newsApiAttributionTextView.text ?? ""
+        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "News API")
+        newsApiAttributionTextView.attributedText = attributedString
+        
     }
     /*
     // MARK: - Navigation
