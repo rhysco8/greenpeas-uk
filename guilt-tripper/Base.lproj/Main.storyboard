@@ -188,7 +188,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GUILT TRIPPER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kzz-hB-UT4">
-                                <rect key="frame" x="25" y="120" width="325" height="46"/>
+                                <rect key="frame" x="25" y="120" width="325" height="35"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="45"/>
@@ -197,13 +197,20 @@
                                 <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad orangutan 1" translatesAutoresizingMaskIntoConstraints="NO" id="r2d-EQ-pIp">
-                                <rect key="frame" x="0.0" y="366" width="375" height="301"/>
+                                <rect key="frame" x="0.0" y="355" width="375" height="312"/>
                             </imageView>
                             <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad orangutan 2" translatesAutoresizingMaskIntoConstraints="NO" id="HY2-Ma-Ojm">
-                                <rect key="frame" x="0.0" y="186" width="375" height="281"/>
+                                <rect key="frame" x="0.0" y="175" width="375" height="292"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARE YOU SURE???" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBC-dF-UDT">
+                                <rect key="frame" x="25" y="180" width="325" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="25"/>
+                                <color key="textColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t02-Re-DCR">
-                                <rect key="frame" x="25" y="426" width="325" height="41"/>
+                                <rect key="frame" x="25" y="605" width="325" height="37"/>
                                 <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -220,23 +227,37 @@
                                     <segue destination="caJ-cg-LCc" kind="show" id="aBk-JR-D8U"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRODUCT CONTAINS PALM OIL" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFM-mi-lWf">
+                                <rect key="frame" x="25" y="410" width="325" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.9447903037071228" green="0.70811372995376587" blue="0.8757283091545105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="cBC-dF-UDT" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" constant="25" id="100-cX-yys"/>
                             <constraint firstItem="r2d-EQ-pIp" firstAttribute="bottom" secondItem="eRL-dZ-mXu" secondAttribute="bottom" id="AsS-lq-pRD"/>
                             <constraint firstItem="r2d-EQ-pIp" firstAttribute="trailing" secondItem="eRL-dZ-mXu" secondAttribute="trailing" id="BZd-iF-zXK"/>
+                            <constraint firstItem="t02-Re-DCR" firstAttribute="top" secondItem="HFM-mi-lWf" secondAttribute="bottom" constant="145" id="D30-NX-sn1"/>
                             <constraint firstItem="T1g-ca-zlE" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" id="Ek7-eC-bOi"/>
+                            <constraint firstItem="HFM-mi-lWf" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" constant="25" id="FFn-nx-Qfe"/>
                             <constraint firstItem="r2d-EQ-pIp" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" id="Hm8-6z-BkO"/>
                             <constraint firstItem="t02-Re-DCR" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" constant="25" id="K4c-o9-zYE"/>
                             <constraint firstItem="HY2-Ma-Ojm" firstAttribute="leading" secondItem="eRL-dZ-mXu" secondAttribute="leading" id="KfI-H2-WJU"/>
                             <constraint firstAttribute="bottom" secondItem="T1g-ca-zlE" secondAttribute="bottom" id="LVb-EJ-IaM"/>
-                            <constraint firstItem="t02-Re-DCR" firstAttribute="top" secondItem="Kzz-hB-UT4" secondAttribute="bottom" constant="260" id="MyL-MQ-7Kp"/>
+                            <constraint firstItem="cBC-dF-UDT" firstAttribute="top" secondItem="Kzz-hB-UT4" secondAttribute="bottom" constant="25" id="LXS-ug-ArU"/>
+                            <constraint firstItem="t02-Re-DCR" firstAttribute="top" secondItem="Kzz-hB-UT4" secondAttribute="bottom" constant="450" id="MyL-MQ-7Kp"/>
                             <constraint firstItem="HY2-Ma-Ojm" firstAttribute="top" secondItem="Kzz-hB-UT4" secondAttribute="bottom" constant="20" id="Rlh-P9-myH"/>
                             <constraint firstItem="eRL-dZ-mXu" firstAttribute="trailing" secondItem="Kzz-hB-UT4" secondAttribute="trailing" constant="25" id="SC8-BV-mRd"/>
                             <constraint firstItem="r2d-EQ-pIp" firstAttribute="top" secondItem="Kzz-hB-UT4" secondAttribute="bottom" constant="200" id="SHP-Tx-5n5"/>
+                            <constraint firstItem="HFM-mi-lWf" firstAttribute="top" secondItem="cBC-dF-UDT" secondAttribute="bottom" constant="205" id="SZH-p4-j3z"/>
                             <constraint firstItem="eRL-dZ-mXu" firstAttribute="trailing" secondItem="T1g-ca-zlE" secondAttribute="trailing" id="X1F-KT-1sb"/>
                             <constraint firstAttribute="bottom" secondItem="T1g-ca-zlE" secondAttribute="bottom" constant="34" id="XhO-4h-HgB"/>
-                            <constraint firstItem="eRL-dZ-mXu" firstAttribute="bottom" secondItem="t02-Re-DCR" secondAttribute="bottom" constant="200" id="bxs-gu-yZK"/>
+                            <constraint firstItem="eRL-dZ-mXu" firstAttribute="trailing" secondItem="HFM-mi-lWf" secondAttribute="trailing" constant="25" id="a9o-za-at0"/>
+                            <constraint firstItem="eRL-dZ-mXu" firstAttribute="trailing" secondItem="cBC-dF-UDT" secondAttribute="trailing" constant="25" id="b19-od-Ytk"/>
+                            <constraint firstItem="eRL-dZ-mXu" firstAttribute="bottom" secondItem="t02-Re-DCR" secondAttribute="bottom" constant="25" id="bxs-gu-yZK"/>
                             <constraint firstItem="eRL-dZ-mXu" firstAttribute="bottom" secondItem="HY2-Ma-Ojm" secondAttribute="bottom" constant="200" id="ddv-f6-lWB"/>
                             <constraint firstAttribute="bottom" secondItem="T1g-ca-zlE" secondAttribute="bottom" id="eik-Bw-Zco"/>
                             <constraint firstItem="HY2-Ma-Ojm" firstAttribute="trailing" secondItem="eRL-dZ-mXu" secondAttribute="trailing" id="gbx-QC-dl8"/>
@@ -245,6 +266,7 @@
                             <constraint firstItem="eRL-dZ-mXu" firstAttribute="bottom" secondItem="T1g-ca-zlE" secondAttribute="bottom" id="lZ9-40-UNP"/>
                             <constraint firstItem="T1g-ca-zlE" firstAttribute="top" secondItem="jgI-Ju-4mx" secondAttribute="top" id="oK3-Q7-EdH"/>
                             <constraint firstItem="Kzz-hB-UT4" firstAttribute="top" secondItem="eRL-dZ-mXu" secondAttribute="top" constant="100" id="uyp-oS-7J1"/>
+                            <constraint firstItem="r2d-EQ-pIp" firstAttribute="top" secondItem="cBC-dF-UDT" secondAttribute="bottom" constant="150" id="w18-Hg-gdJ"/>
                             <constraint firstItem="eRL-dZ-mXu" firstAttribute="trailing" secondItem="t02-Re-DCR" secondAttribute="trailing" constant="25" id="yHC-og-em8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eRL-dZ-mXu"/>
@@ -678,6 +700,6 @@
         <image name="sad orangutan 2" width="480" height="320"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Q49-66-AoZ"/>
+        <segue reference="DQt-oO-esC"/>
     </inferredMetricsTieBreakers>
 </document>
