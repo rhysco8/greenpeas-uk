@@ -14,6 +14,7 @@
 		3F7EC30223058C3800CE897F /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC30123058C3800CE897F /* NSAttributedStringExtension.swift */; };
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */; };
+		C60C45FC230578A8003CDF48 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60C45FB230578A8003CDF48 /* NSAttributedStringExtension.swift */; };
 		C6240ABD2302C684008116CF /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABC2302C684008116CF /* Extras.swift */; };
 		C6240ABF2302C964008116CF /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABE2302C964008116CF /* News.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
@@ -57,6 +58,7 @@
 		AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiltTripViewController.swift; sourceTree = "<group>"; };
 		B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A09B03FDCB3DCF327C6FFF /* Pods-guilt-tripperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripperUITests.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripperUITests/Pods-guilt-tripperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60C45FB230578A8003CDF48 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 		C6240ABC2302C684008116CF /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
 		C6240ABE2302C964008116CF /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		C6308F5422FAE71100D9FA29 /* guilt-tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guilt-tripper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +162,7 @@
 				C6308F5922FAE71100D9FA29 /* ViewController.swift */,
 				C6308F5B22FAE71100D9FA29 /* Main.storyboard */,
 				3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */,
+				C60C45FB230578A8003CDF48 /* NSAttributedStringExtension.swift */,
 				C6240ABC2302C684008116CF /* Extras.swift */,
 				3F7EC2FF23045ABF00CE897F /* Products.swift */,
 				C6240ABE2302C964008116CF /* News.swift */,
@@ -600,13 +603,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U79UBB8BU;
+				DEVELOPMENT_TEAM = 98TGH9BADU;
 				INFOPLIST_FILE = "guilt-tripper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -619,13 +622,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U79UBB8BU;
+				DEVELOPMENT_TEAM = 98TGH9BADU;
 				INFOPLIST_FILE = "guilt-tripper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greenpeas-uk.guilt-tripper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
