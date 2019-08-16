@@ -9,5 +9,5 @@
 import Foundation
 
 
-let palmOilProducts = ["Nutella", "Pot Noodle Chicken and Mushroom flavour", "Kelloggs Crunchy Nut Clusters", "Cadbury Dairy Milk Whole Nut Chocolate Bar", "Vitalite Dairy Free Butter"]
-let nonPalmOilProducts = ["Biona Organic Dark Chocolate Spread", "Biona Organic Rye Bread", "Kallo Milk Chocolate Rice Cakes", "Kallo Organic Wholegrain Puffed Rice Cereal"]
+let palmOilProducts = ["Nutella", "Pot Noodle Chicken and Mushroom flavour", "Kelloggs Crunchy Nut Clusters", "Warburtons Toastie Soft White Bread", "Vitalite Dairy Free Butter", "Cardamom & Honey Granola", "Cadbury Dairy Milk Whole Nut Chocolate Bar"]
+let nonPalmOilProducts = ["Biona Organic Dark Chocolate Spread", "Biona Organic Rye Bread", "Kallo Milk Chocolate Rice Cakes", "Kallo Organic Wholegrain Puffed Rice Cereal", "Pip & Nut Smooth Peanut Butter" ]
