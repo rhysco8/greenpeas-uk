@@ -29,8 +29,20 @@ class guilt_tripperUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testScanBarcode() {
-        XCTAssertTrue(app.staticTexts["GUILT TRIPPER"].exists)
-        app.buttons["Select Product"].tap()
+    func testProductWithPalmOil() {
+        
+        let app = XCUIApplication()
+        app.buttons["ENTER"].tap()
+        
+        let productTextField = app.textFields["Enter product name"]
+        let product = "Nutella"
+        productTextField.tap()
+        productTextField.typeText(product)
+        
+        app.buttons["SUBMIT"].tap()
+        app.buttons["FIND OUT MORE"].tap()
+        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element(boundBy: 2).children(matching: .other).element.children(matching: .other).element(boundBy: 0).buttons["READ MORE ..."].tap()
+        app.buttons["Done"].tap()
+        app.buttons["ENTER ANOTHER PRODUCT"].tap()
     }
 }
