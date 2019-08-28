@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_guilt_tripperUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_guilt_tripperUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_guilt_tripper_guilt_tripperUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_guilt_tripper_guilt_tripperUITestsVersionString[];
 

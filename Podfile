@@ -16,7 +16,7 @@ target 'guilt-tripper' do
   end
 
   target 'guilt-tripperUITests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
 
