@@ -39,7 +39,7 @@
 * To run UI tests, press diamond in line 13 of file (adjacent to ```class guilt-tripperUITests: XCTestCase```)
 * DISCLAIMER: Time out issue associated with API call - if test fails, run test again.
 
-![RunningTesting]()
+![RunTests](images/RunTestsGif.gif)
 
 ## App Requirements
 --------
