@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77B5B59EB0E606271A869C9AB945A31A"
-               BuildableName = "Pods_guilt_tripperUITests.framework"
-               BlueprintName = "Pods-guilt-tripperUITests"
+               BlueprintIdentifier = "F5F5DEF2EFF7E3B73A78BF69C3108930"
+               BuildableName = "Pods_guilt_tripper_guilt_tripperUITests.framework"
+               BlueprintName = "Pods-guilt-tripper-guilt-tripperUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "77B5B59EB0E606271A869C9AB945A31A"
-            BuildableName = "Pods_guilt_tripperUITests.framework"
-            BlueprintName = "Pods-guilt-tripperUITests"
+            BlueprintIdentifier = "F5F5DEF2EFF7E3B73A78BF69C3108930"
+            BuildableName = "Pods_guilt_tripper_guilt_tripperUITests.framework"
+            BlueprintName = "Pods-guilt-tripper-guilt-tripperUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

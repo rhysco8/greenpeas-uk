@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034D58D60922FCA34279405A /* Pods_guilt_tripperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20592C42EB421ADB65632AA4 /* Pods_guilt_tripperUITests.framework */; };
 		065824BD99BD78ACA2C5399A /* Pods_guilt_tripper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */; };
 		3F7EC2FE2304545900CE897F /* UnknownProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */; };
 		3F7EC30023045ABF00CE897F /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC2FF23045ABF00CE897F /* Products.swift */; };
 		3F7EC30223058C3800CE897F /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC30123058C3800CE897F /* NSAttributedStringExtension.swift */; };
+		62BC5B9954775D93FBB0BA71 /* Pods_guilt_tripper_guilt_tripperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2984E956D414FD16EF7C82 /* Pods_guilt_tripper_guilt_tripperUITests.framework */; };
 		98BA888922FB0BFA00962FCD /* BarcodeTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */; };
 		AA8AC75423019B6F0034D3FF /* GuiltTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */; };
-		C60C45FC230578A8003CDF48 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60C45FB230578A8003CDF48 /* NSAttributedStringExtension.swift */; };
 		C6240ABD2302C684008116CF /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABC2302C684008116CF /* Extras.swift */; };
 		C6240ABF2302C964008116CF /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6240ABE2302C964008116CF /* News.swift */; };
 		C6308F5822FAE71100D9FA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6308F5722FAE71100D9FA29 /* AppDelegate.swift */; };
@@ -47,12 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20592C42EB421ADB65632AA4 /* Pods_guilt_tripperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED64BA2DFE372ECFB92FA1C /* Pods-guilt-tripperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripperUITests.debug.xcconfig"; path = "Target Support Files/Pods-guilt-tripperUITests/Pods-guilt-tripperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31133CBD8F82DDB7517EC4B3 /* Pods-guilt-tripper-guilt-tripperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripper-guilt-tripperUITests.debug.xcconfig"; path = "Target Support Files/Pods-guilt-tripper-guilt-tripperUITests/Pods-guilt-tripper-guilt-tripperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F1266EF00B7CB709DE60BFA /* Pods_guilt_tripperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7EC2FD2304545900CE897F /* UnknownProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownProductViewController.swift; sourceTree = "<group>"; };
 		3F7EC2FF23045ABF00CE897F /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		3F7EC30123058C3800CE897F /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSAttributedStringExtension.swift; path = "guilt-tripper/NSAttributedStringExtension.swift"; sourceTree = "<group>"; };
+		5583DF7A409825319196DE3D /* Pods-guilt-tripper-guilt-tripperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripper-guilt-tripperUITests.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripper-guilt-tripperUITests/Pods-guilt-tripper-guilt-tripperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5A76B9476BF4F92732B01EC0 /* Pods-guilt-tripper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripper.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripper/Pods-guilt-tripper.release.xcconfig"; sourceTree = "<group>"; };
 		98BA888822FB0BFA00962FCD /* BarcodeTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTempViewController.swift; sourceTree = "<group>"; };
 		AA8AC75323019B4A0034D3FF /* GuiltTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuiltTripViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +79,7 @@
 		D5233DED94363F328941961E /* Pods-guilt-tripperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripperTests.debug.xcconfig"; path = "Target Support Files/Pods-guilt-tripperTests/Pods-guilt-tripperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F64BE18B2A552385F3A7A5E7 /* Pods-guilt-tripper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripper.debug.xcconfig"; path = "Target Support Files/Pods-guilt-tripper/Pods-guilt-tripper.debug.xcconfig"; sourceTree = "<group>"; };
 		F82203415FE06BC9F7100C50 /* Pods-guilt-tripperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guilt-tripperTests.release.xcconfig"; path = "Target Support Files/Pods-guilt-tripperTests/Pods-guilt-tripperTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE2984E956D414FD16EF7C82 /* Pods_guilt_tripper_guilt_tripperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_guilt_tripper_guilt_tripperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034D58D60922FCA34279405A /* Pods_guilt_tripperUITests.framework in Frameworks */,
+				62BC5B9954775D93FBB0BA71 /* Pods_guilt_tripper_guilt_tripperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +115,7 @@
 			children = (
 				B9E6F786B54E64856E0363FD /* Pods_guilt_tripper.framework */,
 				3F1266EF00B7CB709DE60BFA /* Pods_guilt_tripperTests.framework */,
-				20592C42EB421ADB65632AA4 /* Pods_guilt_tripperUITests.framework */,
+				FE2984E956D414FD16EF7C82 /* Pods_guilt_tripper_guilt_tripperUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +129,8 @@
 				F82203415FE06BC9F7100C50 /* Pods-guilt-tripperTests.release.xcconfig */,
 				2ED64BA2DFE372ECFB92FA1C /* Pods-guilt-tripperUITests.debug.xcconfig */,
 				C0A09B03FDCB3DCF327C6FFF /* Pods-guilt-tripperUITests.release.xcconfig */,
+				31133CBD8F82DDB7517EC4B3 /* Pods-guilt-tripper-guilt-tripperUITests.debug.xcconfig */,
+				5583DF7A409825319196DE3D /* Pods-guilt-tripper-guilt-tripperUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				C6308F6F22FAE71200D9FA29 /* Sources */,
 				C6308F7022FAE71200D9FA29 /* Frameworks */,
 				C6308F7122FAE71200D9FA29 /* Resources */,
+				4282DEA5BC2FBD219ADEA2F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,6 +330,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4282DEA5BC2FBD219ADEA2F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-guilt-tripper-guilt-tripperUITests/Pods-guilt-tripper-guilt-tripperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-guilt-tripper-guilt-tripperUITests/Pods-guilt-tripper-guilt-tripperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-guilt-tripper-guilt-tripperUITests/Pods-guilt-tripper-guilt-tripperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		85FCE1DDDF825E376ED30A6C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,7 +362,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-guilt-tripperUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-guilt-tripper-guilt-tripperUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -681,7 +702,7 @@
 		};
 		C6308F8322FAE71200D9FA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ED64BA2DFE372ECFB92FA1C /* Pods-guilt-tripperUITests.debug.xcconfig */;
+			baseConfigurationReference = 31133CBD8F82DDB7517EC4B3 /* Pods-guilt-tripper-guilt-tripperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,7 +723,7 @@
 		};
 		C6308F8422FAE71200D9FA29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A09B03FDCB3DCF327C6FFF /* Pods-guilt-tripperUITests.release.xcconfig */;
+			baseConfigurationReference = 5583DF7A409825319196DE3D /* Pods-guilt-tripper-guilt-tripperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
