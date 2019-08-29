@@ -20,11 +20,10 @@
 ## Installation
 --------
 * Install Xcode
-
 * Command line instructions:
  ```
   cd path/to/project/folder
-  git clone git@github.com:rhysco8/greenpeas-uk.git
+  git clone git@github.com:rachjgriff/greenpeas-uk.git
   cd greenpeas-uk
 
   xed guilt-tripper.xcworkspace
@@ -38,9 +37,9 @@
 * Navigate to UI (User Interface) testing file in Xcode:
   * guilt-tripper/guilt-tripperUITests/guilt_tripperUITests.swift
 * To run UI tests, press diamond in line 13 of file (adjacent to ```class guilt-tripperUITests: XCTestCase```)
-* Unit tests in following file have not yet been implemented:
-  * guilt-tripper/guilt-tripperTests/guilt_tripperTests.swift
+* DISCLAIMER: Time out issue associated with API call - if test fails, run test again.
 
+![RunningTesting]()
 
 ## App Requirements
 --------
@@ -57,6 +56,7 @@
 
 #### Future Version
 - [ ] Check multiple products using a barcode scanner
+  - [ ] Or move current array of products into a database
 - [ ] Check for multiple ingredients which cause harm to the environment
 - [ ] Photos displayed change dependant on what ingredient is highlighted
 - [ ] Sounds are made depending on what ingredients are found e.g. applause or aggressive alarm
@@ -99,4 +99,11 @@ I can click on 'Select Another Product'
 
 ## App Simulation
 --------
-* Add video
+##### Product contains Palm Oil:
+![WithPalmOil](images/WithPalmOilGif.gif)
+
+##### Product does not contain Palm Oil:
+![WithoutPalmOil](images/WithoutPalmOilGif.gif)
+
+##### Product not found:
+![ProductNotFound](images/ProductNotFoundGif.gif)
