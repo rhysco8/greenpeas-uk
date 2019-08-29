@@ -41,6 +41,11 @@
 
 ![RunTests](images/RunTestsGif.gif)
 
+* Code coverage 80%
+* To view in Xcode, run tests and open Report navigator (**Command-9**)
+
+![CodeCoverage](images/CodeCoverage.png)
+
 ## App Requirements
 --------
 
