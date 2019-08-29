@@ -8,7 +8,6 @@ target 'guilt-tripper' do
   # Pods for guilt-tripper
   pod 'Alamofire'
   pod 'SwiftyJSON'
-  pod 'Kingfisher'
 
   target 'guilt-tripperTests' do
     inherit! :search_paths
